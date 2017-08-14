@@ -373,7 +373,11 @@ div.tocify {
 <div id="presentation-of-the-survey-data" class="section level2">
 <h2>Presentation of the Survey Data</h2>
 <p>We are studying the species and weight of animals caught in plots in our study area. The dataset is stored as a comma separated value (CSV) file. Each row holds information for a single animal, and the columns represent:</p>
-<table>
+<table style="width:78%;">
+<colgroup>
+<col width="26%" />
+<col width="51%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Column</th>
@@ -383,7 +387,7 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td>record_id</td>
-<td>Unique id for the observation</td>
+<td>Unique row id for the observation</td>
 </tr>
 <tr class="even">
 <td>month</td>
@@ -399,11 +403,11 @@ div.tocify {
 </tr>
 <tr class="odd">
 <td>plot_id</td>
-<td>ID of a particular plot</td>
+<td>unique ID for plot (i.e. 1 - 24)</td>
 </tr>
 <tr class="even">
 <td>species_id</td>
-<td>2-letter code</td>
+<td>2-letter code for species</td>
 </tr>
 <tr class="odd">
 <td>sex</td>
@@ -411,11 +415,11 @@ div.tocify {
 </tr>
 <tr class="even">
 <td>hindfoot_length</td>
-<td>length of the hindfoot in mm</td>
+<td>length of the hindfoot (mm)</td>
 </tr>
 <tr class="odd">
 <td>weight</td>
-<td>weight of the animal in grams</td>
+<td>weight of the animal (grams)</td>
 </tr>
 <tr class="even">
 <td>genus</td>
@@ -431,7 +435,7 @@ div.tocify {
 </tr>
 <tr class="odd">
 <td>plot_type</td>
-<td>type of plot</td>
+<td>type of plot/exclosure (i.e. Control, Long-term Krat, Rodent, Short-term, Spectab)</td>
 </tr>
 </tbody>
 </table>
@@ -439,6 +443,7 @@ div.tocify {
 <p>To download the data into the <code>data/</code> subdirectory, run the following:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;https://ndownloader.figshare.com/files/2292169&quot;</span>,
               <span class="st">&quot;data/portal_data_joined.csv&quot;</span>)</code></pre></div>
+<p>Here is a link to the file we want to download: <a href="http://https://ndownloader.figshare.com/files/2292169">Data</a></p>
 <p>You are now ready to load the data:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">surveys &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;data/portal_data_joined.csv&#39;</span>)</code></pre></div>
 <p>This statement doesn’t produce any output because, as you might recall, assignments don’t display anything. If we want to check that our data has been loaded, we can print the variable’s value: <code>surveys</code>.</p>
@@ -680,6 +685,7 @@ surveys$plot_type &lt;-<span class="st"> </span><span class="kw">factor</span>(s
 <p>We’re going to be using the <code>ymd()</code> function from the package <strong><code>lubridate</code></strong>. This function is designed to take a vector representing year, month, and day and convert that information to a POSIXct vector. POSIXct is a class of data recognized by R as being a date or date and time. The argument that the function requires is relatively flexible, but, as a best practice, is a character vector formatted as “YYYY-MM-DD”.</p>
 <p>Start by loading the required package:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(lubridate)</code></pre></div>
+<pre><code>#&gt; Warning: package &#39;lubridate&#39; was built under R version 3.3.3</code></pre>
 <p>Create a character vector from the <code>year</code>, <code>month</code>, and <code>day</code> columns of <code>surveys</code> using <code>paste()</code>:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">paste</span>(surveys$year, surveys$month, surveys$day, <span class="dt">sep=</span><span class="st">&quot;-&quot;</span>)
 <span class="co"># sep indicates the character to use to separate each component</span></code></pre></div>
@@ -690,7 +696,7 @@ surveys$plot_type &lt;-<span class="st"> </span><span class="kw">factor</span>(s
 
 <span class="kw">str</span>(surveys) <span class="co"># notice the new column, with &#39;date&#39; as the class</span></code></pre></div>
 <p style="text-align: right; font-size: small;">
-Page build on: 2017-08-02 13:20:20
+Page build on: 2017-08-14 17:46:34
 </p>
 </div>
 

@@ -33,19 +33,19 @@ Each row holds information for a single animal, and the columns represent:
 
 | Column           | Description                        |
 |------------------|------------------------------------|
-| record\_id       | Unique id for the observation      |
+| record\_id       | Unique row id for the observation      |
 | month            | month of observation               |
 | day              | day of observation                 |
 | year             | year of observation                |
-| plot\_id         | ID of a particular plot            |
-| species\_id      | 2-letter code                      |
+| plot\_id         | unique ID for plot (i.e. 1 - 24)           |
+| species\_id      | 2-letter code for species                     |
 | sex              | sex of animal ("M", "F")           |
-| hindfoot\_length | length of the hindfoot in mm       |
-| weight           | weight of the animal in grams      |
+| hindfoot\_length | length of the hindfoot (mm)       |
+| weight           | weight of the animal (grams)      |
 | genus            | genus of animal                    |
 | species          | species of animal                  |
 | taxa             | e.g. Rodent, Reptile, Bird, Rabbit |
-| plot\_type       | type of plot                       |
+| plot\_type       | type of plot\/exclosure (i.e. Control, Long-term Krat, Rodent, Short-term, Spectab)                      |
 
 We are going to use the R function `download.file()` to download the CSV file
 that contains the survey data from figshare, and we will use `read.csv()` to
@@ -57,6 +57,9 @@ To download the data into the `data/` subdirectory, run the following:
 download.file("https://ndownloader.figshare.com/files/2292169",
               "data/portal_data_joined.csv")
 ```
+
+Here is a link to the file we want to download: [Data](http://https://ndownloader.figshare.com/files/2292169)
+
 
 You are now ready to load the data:
 
