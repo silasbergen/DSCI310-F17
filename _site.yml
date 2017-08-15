@@ -12,6 +12,8 @@ navbar:
       href: 03-dplyr.html
     - text: "Visualizing data"
       href: 04-visualization-ggplot2.html
+    - text: "Analysis of data"
+      href: 06-stat-analysis.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/datacarpentry/R-ecology-lesson

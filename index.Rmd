@@ -33,8 +33,7 @@ how to work with databases directly from R.
 3. [Starting with data](02-starting-with-data.html)
 4. [Aggregating and analyzing data with dplyr](03-dplyr.html)
 5. [Data visualization with **`ggplot2`**](04-visualization-ggplot2.html)
-
-
+6. [Statistical Analysis of Data](06-stat-analysis.html)
 
 
 ## Requirements

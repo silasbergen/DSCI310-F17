@@ -1,0 +1,53 @@
+---
+title: "Statistical Analysis of Data"
+author: Chris Malone
+---
+
+```{r source, include=FALSE, purl=FALSE}
+source("setup.R")
+```
+
+```{r, purl=TRUE, echo=FALSE}
+## Statistical Analysis of Data
+```
+
+
+------------
+
+> ### Learning Objectives
+>
+> * Conduct simple t-tests
+> * Basic model fitting via regression
+
+------------
+
+
+## Structure of the Vitamin Data
+
+```{r, echo=FALSE, purl=TRUE}
+### Structure of the vitamin data
+```
+
+This datasets contains information about actual intake and daily recommended intake for calories and various other vitamin.  The relationship is to be investigated across gender and the potential impact of BMI. 
+Each row holds information for a single person, and the columns represent:
+
+| Column           | Description                        |
+|------------------|------------------------------------|
+| RowID       | Unique row id for each person      |
+| Gender           | Gender of person                   |
+| BMI              | Body mass index                    |
+| \<variable\>_Actual | Actual amount for \<variable\>     |
+| \<variable\>_DRI   |  Daily recommended intake for \<variable\>         |
+
+------------
+
+> ### Download Vitamin Data to Your Local Machine
+>
+>  Link: [Data](https://github.com/WSU-DataScience/R-ecology-lesson/blob/gh-pages/portal_data_joined.csv)
+
+------------
+
+
+
+
+<p style="text-align: right; font-size: small;">Page build on: `r format(Sys.time())`</p>
