@@ -328,12 +328,6 @@ div.tocify {
 <li>
   <a href="04-visualization-ggplot2.html">Visualizing data</a>
 </li>
-<li>
-  <a href="05-r-and-databases.html">R and SQL</a>
-</li>
-<li>
-  <a href="code-handout.R">Code Handout</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -370,8 +364,8 @@ div.tocify {
 </ul>
 </blockquote>
 <hr />
-<div id="presentation-of-the-survey-data" class="section level2">
-<h2>Presentation of the Survey Data</h2>
+<div id="structure-of-the-survey-data" class="section level2">
+<h2>Structure of the Survey Data</h2>
 <p>We are studying the species and weight of animals caught in plots in our study area. The dataset is stored as a comma separated value (CSV) file. Each row holds information for a single animal, and the columns represent:</p>
 <table style="width:78%;">
 <colgroup>
@@ -439,13 +433,16 @@ div.tocify {
 </tr>
 </tbody>
 </table>
-<p>We are going to use the R function <code>download.file()</code> to download the CSV file that contains the survey data from figshare, and we will use <code>read.csv()</code> to load into memory the content of the CSV file as an object of class <code>data.frame</code>.</p>
-<p>To download the data into the <code>data/</code> subdirectory, run the following:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;https://ndownloader.figshare.com/files/2292169&quot;</span>,
-              <span class="st">&quot;data/portal_data_joined.csv&quot;</span>)</code></pre></div>
-<p>Here is a link to the file we want to download: <a href="http://https://ndownloader.figshare.com/files/2292169">Data</a></p>
-<p>You are now ready to load the data:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">surveys &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;data/portal_data_joined.csv&#39;</span>)</code></pre></div>
+<hr />
+<blockquote>
+<h3 id="download-survey-data-to-local-machine">Download Survey Data to Local Machine</h3>
+<p>Link: <a href="https://github.com/WSU-DataScience/R-ecology-lesson/blob/gh-pages/portal_data_joined.csv">Data</a></p>
+</blockquote>
+<hr />
+<p>We will use <code>read.csv()</code> to load the content of the survey dat into a <code>data.frame</code> R object.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">surveys &lt;-<span class="st"> </span><span class="kw">read.csv</span>( <span class="kw">file.choose</span>() )</code></pre></div>
+<p>Alternatively, the <i>&lt;path&gt;/&lt;filename&gt;</i> of the dataset can be specified directly in the <code>read.csv()</code> function. Additional options can be specifed in the <code>read.csv()</code> function.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">surveys &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;data/portal_data_joined.csv&#39;</span>, <span class="dt">header=</span><span class="ot">TRUE</span>, <span class="dt">sep=</span><span class="st">&quot;,&quot;</span>)</code></pre></div>
 <p>This statement doesn’t produce any output because, as you might recall, assignments don’t display anything. If we want to check that our data has been loaded, we can print the variable’s value: <code>surveys</code>.</p>
 <p>Wow… that was a lot of output. At least it means the data loaded properly. Let’s check the top (the first 6 lines) of this data frame using the function <code>head()</code>:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(surveys)</code></pre></div>
@@ -463,6 +460,8 @@ div.tocify {
 #&gt; 4 Neotoma albigula Rodent   Control
 #&gt; 5 Neotoma albigula Rodent   Control
 #&gt; 6 Neotoma albigula Rodent   Control</code></pre>
+<p>In R-Studio, you can view the contents of a <code>data.frame</code> with the following command.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(surveys)</code></pre></div>
 </div>
 <div id="what-are-data-frames" class="section level2">
 <h2>What are data frames?</h2>
@@ -602,7 +601,7 @@ sex <span class="co"># after re-ordering</span></code></pre></div>
 <p>When your data is stored as a factor, you can use the <code>plot()</code> function to get a quick glance at the number of observations represented by each factor level. Let’s look at the number of males and females captured over the course of the experiment:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## bar plot of the number of females and males captured during the experiment:
 <span class="kw">plot</span>(surveys$sex)</code></pre></div>
-<p><img src="img/R-ecology-unnamed-chunk-21-1.png" width="672" /></p>
+<p><img src="img/R-ecology-unnamed-chunk-22-1.png" width="672" /></p>
 <p>In addition to males and females, there are about 1700 individuals for which the sex information hasn’t been recorded. Additionally, for these individuals, there is no label to indicate that the information is missing. Let’s rename this label to something more meaningful. Before doing that, we’re going to pull out the data on sex and work with that data, so we’re not modifying the working copy of the data frame:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">sex &lt;-<span class="st"> </span>surveys$sex
 <span class="kw">head</span>(sex)</code></pre></div>
@@ -695,8 +694,14 @@ surveys$plot_type &lt;-<span class="st"> </span><span class="kw">factor</span>(s
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">surveys$date &lt;-<span class="st"> </span><span class="kw">ymd</span>(<span class="kw">paste</span>(surveys$year, surveys$month, surveys$day, <span class="dt">sep=</span><span class="st">&quot;-&quot;</span>))
 
 <span class="kw">str</span>(surveys) <span class="co"># notice the new column, with &#39;date&#39; as the class</span></code></pre></div>
+<blockquote>
+<h3 id="challenge-4">Challenge</h3>
+<p>The <code>ymd()</code> function actually produced a warning message. Run the following command which will identify the rows for which a valid date could not be obtained.</p>
+<p><code>which( is.na(surveys$date) )</code></p>
+<p>Investigate what happened in creating the <code>surveys$data</code> variable. That is, why did R produce this warning?</p>
+</blockquote>
 <p style="text-align: right; font-size: small;">
-Page build on: 2017-08-14 18:21:57
+Page build on: 2017-08-14 20:32:42
 </p>
 </div>
 

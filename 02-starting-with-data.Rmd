@@ -21,10 +21,10 @@ source("setup.R")
 
 ------------
 
-## Presentation of the Survey Data
+## Structure of the Survey Data
 
 ```{r, echo=FALSE, purl=TRUE}
-### Presentation of the survey data
+### Structure of the survey data
 ```
 
 We are studying the species and weight of animals caught in plots in our study
@@ -47,24 +47,27 @@ Each row holds information for a single animal, and the columns represent:
 | taxa             | e.g. Rodent, Reptile, Bird, Rabbit |
 | plot\_type       | type of plot\/exclosure (i.e. Control, Long-term Krat, Rodent, Short-term, Spectab)                      |
 
-We are going to use the R function `download.file()` to download the CSV file
-that contains the survey data from figshare, and we will use `read.csv()` to
-load into memory the content of the CSV file as an object of class `data.frame`.
 
-To download the data into the `data/` subdirectory, run the following:
+------------
 
-```{r, eval=FALSE, purl=TRUE}
-download.file("https://ndownloader.figshare.com/files/2292169",
-              "data/portal_data_joined.csv")
+> ### Download Survey Data to Local Machine
+>
+>  Link: [Data](https://github.com/WSU-DataScience/R-ecology-lesson/blob/gh-pages/portal_data_joined.csv)
+
+------------
+
+
+We will use `read.csv()` to load the content of the survey dat into a `data.frame` R object.
+
+
+```{r, eval=FALSE,  purl=FALSE}
+surveys <- read.csv( file.choose() )
 ```
 
-Here is a link to the file we want to download: [Data](http://https://ndownloader.figshare.com/files/2292169)
-
-
-You are now ready to load the data:
+Alternatively, the <i>\<path\>\/\<filename\></i> of the dataset can be specified directly in the `read.csv()` function.  Additional options can be specifed in the `read.csv()` function.
 
 ```{r, eval=TRUE,  purl=FALSE}
-surveys <- read.csv('data/portal_data_joined.csv')
+surveys <- read.csv('data/portal_data_joined.csv', header=TRUE, sep=",")
 ```
 
 This statement doesn't produce any output because, as you might recall,
@@ -78,6 +81,12 @@ function `head()`:
 ```{r, results='show', purl=FALSE}
 head(surveys)
 ```
+
+In R-Studio, you can view the contents of a `data.frame` with the following command.
+```{r, eval=FALSE,  purl=FALSE}
+View(surveys)
+```
+
 
 ## What are data frames?
 
@@ -562,5 +571,15 @@ surveys$date <- ymd(paste(surveys$year, surveys$month, surveys$day, sep="-"))
 
 str(surveys) # notice the new column, with 'date' as the class
 ```
+
+
+
+> ### Challenge
+> The `ymd()` function actually produced a warning message.  Run the following command which will identify the rows for which a valid date could not be obtained.
+>
+>  `which( is.na(surveys$date) )`
+>
+>  Investigate what happened in creating the `surveys$data` variable.  That is, why did R produce this warning?
+
 
 <p style="text-align: right; font-size: small;">Page build on: `r format(Sys.time())`</p>

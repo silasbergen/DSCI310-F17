@@ -125,11 +125,11 @@ If we wanted to create a new object with this smaller version of the data, we
 could do so by assigning it a new name:
 
 ```{r, purl = FALSE}
-surveys_sml <- surveys %>%
+surveys_small <- surveys %>%
   filter(weight < 5) %>%
   select(species_id, sex, weight)
 
-surveys_sml
+surveys_small
 ```
 
 Note that the final data frame is the leftmost part of this expression.
@@ -183,11 +183,11 @@ functions, too, as long as the **`dplyr`** or `magrittr` package is loaded).
 ```{r, purl = FALSE}
 surveys %>%
   mutate(weight_kg = weight / 1000) %>%
-  head
+  head()
 ```
 
-Note that we don't include parentheses at the end of our call to `head()` above.
-When piping into a function with no additional arguments, you can call the
+
+Note that when piping into a function with no additional arguments, you can call the
 function with or without parentheses (e.g. `head` or `head()`).
 
 The first few rows of the output are full of `NA`s, so if we wanted to remove
@@ -197,7 +197,7 @@ those we could insert a `filter()` in the chain:
 surveys %>%
   filter(!is.na(weight)) %>%
   mutate(weight_kg = weight / 1000) %>%
-  head
+  head()
 ```
 
 `is.na()` is a function that determines whether something is an `NA`. The `!`
@@ -254,7 +254,7 @@ to calculate the summary statistics. So to view the mean `weight` by sex:
 ```{r, purl = FALSE}
 surveys %>%
   group_by(sex) %>%
-  summarize(mean_weight = mean(weight, na.rm = TRUE))
+  summarize('mean_weight' = mean(weight, na.rm = TRUE))
 ```
 
 You may also have noticed that the output from these calls doesn't run off the
@@ -271,7 +271,7 @@ You can also group by multiple columns:
 ```{r, purl = FALSE}
 surveys %>%
   group_by(sex, species_id) %>%
-  summarize(mean_weight = mean(weight, na.rm = TRUE))
+  summarize('mean_weight' = mean(weight, na.rm = TRUE))
 ```
 
 When grouping both by `sex` and `species_id`, the first rows are for individuals
@@ -285,7 +285,7 @@ values are removed, we can omit `na.rm = TRUE` when computing the mean:
 surveys %>%
   filter(!is.na(weight)) %>%
   group_by(sex, species_id) %>%
-  summarize(mean_weight = mean(weight))
+  summarize('mean_weight' = mean(weight))
 ```
 
 Here, again, the output from these calls doesn't run off the screen
@@ -298,7 +298,7 @@ display:
 surveys %>%
   filter(!is.na(weight)) %>%
   group_by(sex, species_id) %>%
-  summarize(mean_weight = mean(weight)) %>%
+  summarize('mean_weight' = mean(weight)) %>%
   print(n = 15)
 ```
 
@@ -310,8 +310,8 @@ column indicating the minimum weight for each species for each sex:
 surveys %>%
   filter(!is.na(weight)) %>%
   group_by(sex, species_id) %>%
-  summarize(mean_weight = mean(weight),
-            min_weight = min(weight))
+  summarize('mean_weight' = mean(weight),
+            'min_weight' = min(weight))
 ```
 
 
@@ -325,7 +325,7 @@ number of rows of data for each sex, we would do:
 ```{r, purl = FALSE}
 surveys %>%
   group_by(sex) %>%
-  tally
+  tally()
 ```
 
 Here, `tally()` is the action applied to the groups created by `group_by()` and
@@ -420,7 +420,7 @@ with the mean body weight of each genera by plot.
 surveys_gw <- surveys %>%
     filter(!is.na(weight)) %>%
     group_by(genus, plot_id) %>%
-    summarize(mean_weight = mean(weight))
+    summarize('mean_weight' = mean(weight))
 
 head(surveys_gw)
 ```
@@ -435,29 +435,34 @@ one with the numbers. We'll use a pipe so we can ignore the data argument.
 ```{r, purl=FALSE}
 surveys_gw_wide <- surveys_gw %>%
   spread(genus, mean_weight)
+```
 
+Using `head()` function to look at resulting `data.frame`.
+
+```{r, results='show', purl=FALSE}
 head(surveys_gw_wide)
 ```
 
+
 Notice that some genera have `NA` values. That's because some of those genera
-don't have any record in that plot. Sometimes it is fine to leave those as
-`NA`. Sometimes we want to fill them as zeros, in which case we would add the
-argument `fill=0`.
+don't have any record in that plot. 
+
+Relationships amongst genus can viewed using the `pairs()` function.  The first column contians labeling information regarding the `plot_id` and thus will be excluded in this plot.
 
 ```{r, purl=FALSE}
-surveys_gw %>%
-  spread(genus, mean_weight, fill = 0) %>%
-  head
+ pairs(surveys_gw_wide[,2:11])
 ```
 
-We can now do things like plot the weight of *Baiomys* against *Chaetodipus* or
-examine their correlation.
+> ### Challenge
+> Run the `pairs()` function on the `surveys_gw` `data.frame`. 
+>
+>  `pairs(surveys_gw)`
+>
+>  What is being plotted by this command?  Is this plot meaningful?  Discuss.
 
-```{r, purl=FALSE}
-surveys_gw %>%
-  spread(genus, mean_weight, fill = 0) %>%
-  cor(use = "pairwise.complete")
-```
+
+
+
 
 #### Wide to long with `gather`
 
@@ -487,7 +492,7 @@ row, we don't even need to list them all out - just use the `:` operator!
 ```{r, purl=FALSE}
 surveys_gw_wide %>%
   gather(genus, mean_weight, Baiomys:Spermophilus) %>%
-  head
+  head()
 ```
 
 > ### Challenge {.challenge}
@@ -601,7 +606,7 @@ observations for these more common species:
 ## Extract the most common species_id
 species_counts <- surveys_complete %>%
   group_by(species_id) %>%
-  tally %>%
+  tally() %>%
   filter(n >= 50)
 
 ## Only keep the most common species

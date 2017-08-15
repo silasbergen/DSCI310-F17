@@ -328,12 +328,6 @@ div.tocify {
 <li>
   <a href="04-visualization-ggplot2.html">Visualizing data</a>
 </li>
-<li>
-  <a href="05-r-and-databases.html">R and SQL</a>
-</li>
-<li>
-  <a href="code-handout.R">Code Handout</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -371,6 +365,11 @@ div.tocify {
 <hr />
 <p>We start by loading the required packages. <strong><code>ggplot2</code></strong> is included in the <strong><code>tidyverse</code></strong> package, and is the current standard for data visualization in R. Authored by Hadley Wickham, <code>gg</code> stands for “Grammar of Graphics.” In learning <code>ggplot2</code>, you may find the following <a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">cheat sheet</a> to be a helpful reference.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)</code></pre></div>
+<pre><code>#&gt; Warning: package &#39;tidyverse&#39; was built under R version 3.3.3</code></pre>
+<pre><code>#&gt; Warning: package &#39;ggplot2&#39; was built under R version 3.3.3</code></pre>
+<pre><code>#&gt; Warning: package &#39;tidyr&#39; was built under R version 3.3.2</code></pre>
+<pre><code>#&gt; Warning: package &#39;purrr&#39; was built under R version 3.3.2</code></pre>
+<pre><code>#&gt; Warning: package &#39;dplyr&#39; was built under R version 3.3.3</code></pre>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
 <div id="basic-grammar" class="section level3">
@@ -870,7 +869,7 @@ yearly_sex_weight &lt;-<span class="st"> </span>surveys_complete %&gt;%
 <span class="kw">ggsave</span>(<span class="st">&quot;name_of_file.png&quot;</span>, my_plot, <span class="dt">width=</span><span class="dv">15</span>, <span class="dt">height=</span><span class="dv">10</span>)</code></pre></div>
 <p>Note: The parameters <code>width</code> and <code>height</code> also determine the font size in the saved plot.</p>
 <p style="text-align: right; font-size: small;">
-Page build on: 2017-08-14 09:55:33
+Page build on: 2017-08-14 20:34:23
 </p>
 </div>
 
@@ -907,7 +906,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
