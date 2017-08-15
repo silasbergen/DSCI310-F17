@@ -7,7 +7,7 @@ minutes: 60
 
 ```{r setup, echo=FALSE, purl=FALSE}
 source("setup.R")
-surveys_complete <- read.csv(file = "data/surveys.csv")
+surveys <- read.csv('data/portal_data_joined.csv')
 ```
 
 ```{r, echo=FALSE, purl=TRUE}
@@ -192,7 +192,7 @@ ggplot(data = df)  + geom_line(aes(x = A,y=B,linetype=D,color=D),size=2)+ geom_p
 
 Now let's start visualizing some real data.  If not still in the workspace, load the data we saved in the previous lesson.
 ```{r load-data, eval=FALSE,  purl=FALSE}
-surveys_complete <- read.csv('data/surveys.csv')
+surveys <- read.csv('data/portal_data_joined.csv')
 ```
 
 
@@ -206,20 +206,20 @@ To create a scatterplot of hind foot length versus weight, we need to:
 - bind the plot to a specific data frame using the `data` argument
 
 ```{r, eval=FALSE, purl=FALSE}
-ggplot(data = surveys_complete)
+ggplot(data = surveys )
 ```
 
 - define aesthetics (`aes`), by selecting the variables to be plotted and the scales to define the geoms
 
 ```{r, eval=FALSE, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length))
+ggplot(data = surveys , aes(x = weight, y = hindfoot_length))
 ```
 
 - add `geoms` -- graphical representation of the data in the plot (points,
      lines, bars). To add a geom to the plot use `+` operator
 
 ```{r first-ggplot, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
+ggplot(data = surveys, aes(x = weight, y = hindfoot_length)) +
   geom_point()
 ```
 
@@ -230,7 +230,7 @@ plot can also be generated with code like this:
 
 ```{r, first-ggplot-with-plus, eval=FALSE, purl=FALSE}
 # Assign plot to a variable
-surveys_plot <- ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length))
+surveys_plot <- ggplot(data = surveys , aes(x = weight, y = hindfoot_length))
 
 # Draw the plot
 surveys_plot + geom_point()
@@ -238,7 +238,7 @@ surveys_plot + geom_point()
 
 ```{r, eval=FALSE, purl=TRUE, echo=FALSE, purl=FALSE}
 ## Create a ggplot and draw it.
-surveys_plot <- ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length))
+surveys_plot <- ggplot(data = surveys , aes(x = weight, y = hindfoot_length))
 surveys_plot + geom_point()
 ```
 
@@ -266,7 +266,7 @@ surveys_plot
 > ### Challenge (optional)
 >
 > Scatter plots can be useful exploratory tools for small datasets. For data
-> sets with large numbers of observations, such as the `surveys_complete` data
+> sets with large numbers of observations, such as the `surveys ` data
 > set, overplotting of points can be a limitation of scatter plots. One strategy
 > for handling such settings is to use hexagonal binning of observations. The
 > plot space is tessellated into hexagons. Each hexagon is assigned a color
@@ -313,7 +313,7 @@ Building plots with ggplot is typically an iterative process. We start by
 defining the dataset we'll use, lay the axes, and choose a geom:
 
 ```{r create-ggplot-object, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
+ggplot(data = surveys , aes(x = weight, y = hindfoot_length)) +
     geom_point()
 ```
 
@@ -321,21 +321,21 @@ Then, we start modifying this plot to extract more information from it. For
 instance, we can add transparency (`alpha`) to avoid overplotting:
 
 ```{r adding-transparency, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
+ggplot(data = surveys , aes(x = weight, y = hindfoot_length)) +
     geom_point(alpha = 0.1)
 ```
 
 We can also add colors for all the points:
 
 ```{r adding-colors, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
+ggplot(data = surveys , aes(x = weight, y = hindfoot_length)) +
     geom_point(alpha = 0.1, color = "blue")
 ```
 
 Or to color each species in the plot differently:
 
 ```{r color-by-species, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
+ggplot(data = surveys , aes(x = weight, y = hindfoot_length)) +
     geom_point(alpha = 0.1, aes(color=species_id))
 ```
 
@@ -350,7 +350,7 @@ ggplot(data = surveys_complete, aes(x = weight, y = hindfoot_length)) +
 ##  Use what you just learned to create a scatter plot of `weight`
 ## over `species_id` with the plot types showing in different colors.
 ## Is this a good way to show this type of data?
-ggplot(data = surveys_complete, aes(x = species_id, y = weight,color=species_id)) + geom_point()
+ggplot(data = surveys , aes(x = species_id, y = weight,color=species_id)) + geom_point()
 ```
 
 
@@ -359,7 +359,7 @@ ggplot(data = surveys_complete, aes(x = species_id, y = weight,color=species_id)
 We can use boxplots to visualize the distribution of weight within each species:
 
 ```{r boxplot, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
+ggplot(data = surveys , aes(x = species_id, y = weight)) +
     geom_boxplot()
 ```
 
@@ -367,7 +367,7 @@ By adding points to boxplot, we can have a better idea of the number of
 measurements and of their distribution:
 
 ```{r boxplot-with-points, purl=FALSE}
-ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
+ggplot(data = surveys , aes(x = species_id, y = weight)) +
     geom_boxplot(alpha = 0) +
     geom_jitter(alpha = 0.3, color = "tomato")
 ```
@@ -406,7 +406,7 @@ hidden?
 ```{r boxplot-challenge, eval=FALSE, purl=TRUE, echo=FALSE}
 ## Challenge with boxplots:
 ##  Start with the boxplot we created:
-ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
+ggplot(data = surveys , aes(x = species_id, y = weight)) +
   geom_violin(alpha = 0) + scale_y_log10()
   geom_jitter(alpha = 0.3, color = "tomato")
 
@@ -433,7 +433,7 @@ levels of a categorical variable.
 By default, `ggplot` counts the number of observations in each level and plots those counts on the y-axis.  For example, consider plotting the number of each sex in the data set:
 
 ```{r sex-bargraph}
-ggplot(data = surveys_complete, aes(x = sex)) +
+ggplot(data = surveys , aes(x = sex)) +
     geom_bar()
 ```
 
@@ -442,7 +442,7 @@ We first need to use `dplyr` to group the data by sex and compute the mean lengt
 also filter out the unlabeled sexes:
 
 ```{r agg-sex}
-length_sex <- surveys_complete %>%
+length_sex <- surveys  %>%
   group_by(sex) %>%
   summarise(mean_length = mean(hindfoot_length, na.rm=TRUE)) %>%
   filter(sex != '')
@@ -475,7 +475,7 @@ Let's calculate number of counts per year for each species. First we need
 to group the data and count records within each group:
 
 ```{r, purl=FALSE}
-yearly_counts <- surveys_complete %>%
+yearly_counts <- surveys  %>%
                  group_by(year, species_id) %>%
                  tally
 ```
@@ -521,7 +521,7 @@ measured. To do that we need to make counts in the data frame grouped by `year`,
 `species_id`, and `sex`:
 
 ```{r, purl=FALSE}
- yearly_sex_counts <- surveys_complete %>%
+ yearly_sex_counts <- surveys  %>%
                       group_by(year, species_id, sex) %>%
                       tally
 ```
@@ -570,7 +570,7 @@ themes.
 
 <!-- Answer
 ```{r average-weight-time-series, purl=FALSE}
-yearly_weight <- surveys_complete %>%
+yearly_weight <- surveys  %>%
                  group_by(year, species_id) %>%
                  summarize(avg_weight = mean(weight))
 ggplot(data = yearly_weight, aes(x=year, y=avg_weight)) +
@@ -599,7 +599,7 @@ has changed through time:
 
 ```{r average-weight-time-facet-sex-rows, purl=FALSE}
 # One column, facet by rows
-yearly_sex_weight <- surveys_complete %>%
+yearly_sex_weight <- surveys  %>%
     group_by(year, sex, species_id) %>%
     summarize(avg_weight = mean(weight))
 ggplot(data = yearly_sex_weight, aes(x=year, y=avg_weight, color = species_id)) +
@@ -678,7 +678,7 @@ an object to be able to easily apply them to other plots you may create:
 grey_theme <- theme(axis.text.x = element_text(colour="grey20", size=12, angle=90, hjust=.5, vjust=.5),
                           axis.text.y = element_text(colour="grey20", size=12),
                           text=element_text(size=16))
-ggplot(surveys_complete, aes(x = species_id, y = hindfoot_length)) +
+ggplot(surveys , aes(x = species_id, y = hindfoot_length)) +
     geom_boxplot() +
     grey_theme
 ```
