@@ -431,7 +431,6 @@ div.tocify {
 #&gt; 6        1000       18</code></pre>
 <p>The initial investigation will focus on Energy (i.e. Calorie intake). The <code>select()</code> function from the <code>dplyr</code> package will be used to create a smaller <code>data.frame</code> from which analysis will be done.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(dplyr)</code></pre></div>
-<pre><code>#&gt; Warning: package &#39;dplyr&#39; was built under R version 3.3.3</code></pre>
 <pre><code>#&gt; 
 #&gt; Attaching package: &#39;dplyr&#39;</code></pre>
 <pre><code>#&gt; The following objects are masked from &#39;package:stats&#39;:
@@ -484,7 +483,7 @@ div.tocify {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">  <span class="kw">library</span>(ggplot2)</code></pre></div>
 <pre><code>#&gt; Warning: package &#39;ggplot2&#39; was built under R version 3.3.3</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">  <span class="kw">ggplot</span>(<span class="dt">data=</span>vitamin_energy, <span class="kw">aes</span>(<span class="dt">x=</span><span class="st">&quot;&quot;</span>,<span class="dt">y=</span>Difference)) +<span class="st"> </span><span class="kw">geom_jitter</span>(<span class="dt">width=</span><span class="fl">0.03</span>) +<span class="st"> </span><span class="kw">geom_hline</span>(<span class="dt">yintercept=</span><span class="dv">0</span>) +<span class="st"> </span><span class="kw">labs</span>(<span class="dt">x=</span><span class="st">&quot;&quot;</span>)</code></pre></div>
-<p><img src="img/R-ecology-unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="img/R-ecology-unnamed-chunk-10-1.png" width="384" style="display: block; margin: auto;" /></p>
 <p>Getting the basic descriptive summaries using <code>summarize()</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">    vitamin_energy %&gt;%<span class="st"> </span><span class="kw">summarize</span>(<span class="st">&#39;Mean Difference&#39;</span> =<span class="st"> </span><span class="kw">mean</span>(Difference), <span class="st">&#39;Std&#39;</span>=<span class="kw">sd</span>(Difference), <span class="st">&#39;n&#39;</span>=<span class="kw">n</span>())</code></pre></div>
 <pre><code>#&gt;   Mean Difference      Std  n
@@ -619,7 +618,7 @@ div.tocify {
 #&gt; Multiple R-squared:  0.2824, Adjusted R-squared:  0.2503 
 #&gt; F-statistic:  8.79 on 3 and 67 DF,  p-value: 5.398e-05</code></pre>
 <p style="text-align: right; font-size: small;">
-Page build on: 2017-08-15 00:11:41
+Page build on: 2017-08-15 08:36:26
 </p>
 </div>
 

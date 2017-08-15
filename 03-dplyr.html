@@ -377,11 +377,6 @@ div.tocify {
 <p>Bracket subsetting is handy, but it can be cumbersome and difficult to read, especially for complicated operations. Enter <strong><code>dplyr</code></strong>. <strong><code>dplyr</code></strong> is a package for making tabular data manipulation easier. It pairs nicely with <strong><code>tidyr</code></strong> which enables you to swiftly convert between different data formats for plotting and analysis.</p>
 <p>Packages in R are basically sets of additional functions that let you do more stuff. The functions we’ve been using so far, like <code>str()</code> or <code>data.frame()</code>, come built into R; packages give you access to more of them. Before you use a package for the first time you need to install it on your machine, and then you should import it in every subsequent R session when you need it. You should already have installed the <strong><code>tidyverse</code></strong> package. This is an “umbrella-package” that installs several packages useful for data analysis which work together well such as <strong><code>tidyr</code></strong>, <strong><code>dplyr</code></strong>, <strong><code>ggplot2</code></strong>, etc. To load the package type:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="st">&quot;tidyverse&quot;</span>)    ## load the tidyverse packages, incl. dplyr</code></pre></div>
-<pre><code>#&gt; Warning: package &#39;tidyverse&#39; was built under R version 3.3.3</code></pre>
-<pre><code>#&gt; Warning: package &#39;ggplot2&#39; was built under R version 3.3.3</code></pre>
-<pre><code>#&gt; Warning: package &#39;tidyr&#39; was built under R version 3.3.2</code></pre>
-<pre><code>#&gt; Warning: package &#39;purrr&#39; was built under R version 3.3.2</code></pre>
-<pre><code>#&gt; Warning: package &#39;dplyr&#39; was built under R version 3.3.3</code></pre>
 <div id="what-are-dplyr-and-tidyr" class="section level2">
 <h2>What are <strong><code>dplyr</code></strong> and <strong><code>tidyr</code></strong>?</h2>
 <p>The package <strong><code>dplyr</code></strong> provides easy tools for the most common data manipulation tasks. It is built to work directly with data frames, with many common tasks optimized by being written in a compiled language (C++). An additional feature is the ability to work directly with data stored in an external database. The benefits of doing this are that the data can be managed natively in a relational database, queries can be conducted on that database, and only the results of the query are returned.</p>
@@ -611,7 +606,7 @@ surveys_complete &lt;-<span class="st"> </span>surveys_complete %&gt;%
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">write.csv</span>(surveys_complete, <span class="dt">file =</span> <span class="st">&quot;data_output/surveys_complete.csv&quot;</span>,
           <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <p style="text-align: right; font-size: small;">
-Page build on: 2017-08-14 22:03:27
+Page build on: 2017-08-15 08:33:13
 </p>
 </div>
 

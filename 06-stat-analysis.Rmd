@@ -65,7 +65,7 @@ head(vitamin)
 The initial investigation will focus on Energy (i.e. Calorie intake).  The `select()` function from the `dplyr` package will be used to create a smaller `data.frame` from which analysis will be done.
 
 
-```{r, results='show', purl=FALSE}
+```{r, results='show', purl=FALSE, , warning=FALSE}
 library(dplyr)
 vitamin_energy <- select(vitamin, RowID, Gender, BMI, Energy_Actual, Energy_DRI)
 ```
@@ -112,7 +112,7 @@ There are a total of $71$ observations in this `data.frame` thus, about $55/71 =
 
 Using `ggplot()` to obtain a plot of the difference column for all individuals.
 
-```{r, results='show', purl=FALSE}
+```{r, results='show', purl=FALSE, , fig.width=4, fig.align='center'}
   library(ggplot2)
   ggplot(data=vitamin_energy, aes(x="",y=Difference)) + geom_jitter(width=0.03) + geom_hline(yintercept=0) + labs(x="")
 ```

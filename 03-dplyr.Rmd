@@ -48,7 +48,7 @@ work together well such as **`tidyr`**, **`dplyr`**, **`ggplot2`**, etc. To load
 the package type:
 
 
-```{r, message = FALSE, purl = FALSE}
+```{r, message = FALSE, purl = FALSE, warning=FALSE}
 library("tidyverse")    ## load the tidyverse packages, incl. dplyr
 ```
 

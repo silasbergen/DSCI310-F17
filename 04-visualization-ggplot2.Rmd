@@ -29,7 +29,7 @@ surveys_complete <- read.csv(file = "data/surveys.csv")
 
 We start by loading the required packages. **`ggplot2`** is included in the **`tidyverse`** package,  and is the current standard for data visualization in R.  Authored by Hadley Wickham, `gg` stands for "Grammar of Graphics."  In learning `ggplot2`, you may find the following [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) to be a helpful reference.
 
-```{r load-package, message=FALSE, purl=FALSE}
+```{r load-package, message=FALSE, purl=FALSE, , warning=FALSE}
 library(tidyverse)
 ```
 
