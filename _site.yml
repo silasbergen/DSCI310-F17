@@ -15,7 +15,7 @@ include: ["*.Rmd","LICENSE.md"]
 output:
   html_document:
     highlight: pygments
-    toc: true
+    toc: false
     toc_float:
       collapsed: false
     include:
