@@ -7,12 +7,14 @@ author: Fall 2017
 ### [Office hours](Schedule.html)
 ### Announcements
 
-Install Tableau onto your computer by going to Control Panel --> Add Programs from the Network (must be on WSU WiFi)
+Complete the two courses on dplyr by 9/8/2017.
 
 ### Notes
 * Note set 1
 
 ### Resources
+
+* [Data camp courses on dplyr](https://www.datacamp.com/groups/5fe0c6e4767b9b01bd632c7e85b0d2215d190c61/invite)
 
 ### Critiques 
 
