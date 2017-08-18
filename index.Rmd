@@ -3,6 +3,9 @@ title: "Silas Bergen template site"
 author: Semester 
 ---
 
+
+### [Office hours](Schedule.html)
+
 ### Announcements
 
 Please install the latest available version of JMP onto your computer as soon as you can.
