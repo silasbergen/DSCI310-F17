@@ -2,8 +2,6 @@
 title: "Silas Bergen template site"
 author: Semester 
 ---
-## Course home page
-
 
 ### Announcements
 
@@ -11,8 +9,8 @@ Please install the latest available version of JMP onto your computer as soon as
 
 ### Resources
 
-* [JMP installation instructions](https://silasbergen.github.io/CourseResources/JMP_installation.html)
-* [Tinkerplots installation instructions](https://silasbergen.github.io/CourseResources/Tinkerplots.pdf)
+* [JMP installation instructions](https://silasbergen.github.io/JMP_installation.html)
+* [Tinkerplots installation instructions](https://silasbergen.github.io/Tinkerplots.pdf)
 * [Tutoring services](http://www.winona.edu/tutoring/)
 
 

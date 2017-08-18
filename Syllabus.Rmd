@@ -7,15 +7,15 @@ output: html_document
 ### Fall 2017
 ### INSTRUCTOR: Dr. Silas Bergen
 ### OFFICE: Gildemeister 124D
-### Office Hours: update
+### [Office hours](Schedule.html)
 
 **NOTE: Friday's 9-11 office hours will be held in the Knowledge,
 Empowerment, Advocacy, and Pluralism (KEAP) center in Kryszko 162.**
 
 ***Required software***
 
--   **JMP -** available from WSU network for free. [Download instructions](https://silasbergen.github.io/CourseResources/JMP-installation-instructions.docx)
--   **Tinkerplots** - costs \$7. [Download instructions](https://silasbergen.github.io/CourseResources/Tinkerplots.pdf)
+-   **JMP -** available from WSU network for free. [Download instructions](https://silasbergen.github.io/JMP_installation.html)
+-   **Tinkerplots** - costs \$7. [Download instructions](https://silasbergen.github.io/Tinkerplots.pdf)
 
 ***Optional text***
 
