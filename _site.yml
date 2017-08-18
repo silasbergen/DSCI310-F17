@@ -3,9 +3,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Syllabus"
-      href: Syllabus.md
+      href: Syllabus.html
     - text: "Schedule"
-      href: Schedule.md
+      href: Schedule.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/datacarpentry/R-ecology-lesson
@@ -15,7 +15,7 @@ include: ["*.Rmd","LICENSE.md"]
 output:
   html_document:
     highlight: pygments
-    toc: true
+    toc: false
     toc_float:
       collapsed: false
     include:
