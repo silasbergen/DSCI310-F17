@@ -1,21 +1,17 @@
----
-title: "Data Science 310: Data summarization and visualization"
-author: Fall 2017
----
+## Course home page
 
-
-### [Office hours](Schedule.html)
 ### Announcements
 
 Install Tableau onto your computer by going to Control Panel --> Add Programs from the Network (must be on WSU WiFi)
+### [View Syllabus](Syllabus.md)
 
 ### Notes
 * Note set 1
-
-### Resources
 
 ### Critiques 
 
 
 ### Design tasks 
+
+### Resources
 

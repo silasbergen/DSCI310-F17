@@ -193,8 +193,8 @@ $(document).ready(function () {
 </div>
 
 
-<div id="stat-110-fundamentals-of-statistics-syllabus" class="section level3">
-<h3>STAT 110: Fundamentals of Statistics Syllabus</h3>
+<div id="dsci-310-data-summarization-and-visualization" class="section level3">
+<h3>DSCI 310: Data summarization and visualization</h3>
 </div>
 <div id="fall-2017" class="section level3">
 <h3>Fall 2017</h3>
@@ -207,190 +207,164 @@ $(document).ready(function () {
 </div>
 <div id="office-hours" class="section level3">
 <h3><a href="Schedule.html">Office hours</a></h3>
-<p><strong>NOTE: Friday’s 9-11 office hours will be held in the Knowledge, Empowerment, Advocacy, and Pluralism (KEAP) center in Kryszko 162.</strong></p>
-<p><strong><em>Required software</em></strong></p>
+</div>
+<div id="course-overview" class="section level3">
+<h3>Course overview</h3>
+<p>The amount and extent of data in our world is growing extremely rapidly. As such there is an increasing need for analysts skilled in summarizing data. Visualizations are an immensely popular way of summarizing data, as they allow viewers to efficiently translate data into information. Modern visualizations are either static or interactive, with a growing trend towards the latter. In this course we will discuss how we perceive information visually, how to identify and avoid data visualization pitfalls, and how to create effective static and interactive visualizations.</p>
+</div>
+<div id="prerequisites" class="section level3">
+<h3>Prerequisites</h3>
+<p>Data Science 210. In DSCI 310 I will assume you have working knowledge of data management tools and techniques. Some tasks in DSCI 310 will require a nontrivial amount of data manipulation and cleaning. While I will provide support for this as needed, I will expect you to be able to obtain and “wrangle” some data on your own. Examples of data tasks that you should be able to do include reshaping data between wide and long formats.</p>
+</div>
+<div id="textbook" class="section level3">
+<h3>Textbook</h3>
+<p>There is no required textbook for this course. Highly recommended resources are The Visual Display of Quantitative Information by Edward Tufte, and Communicating Data with Tableau by Ben Jones.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Tufte</th>
+<th align="center">Jones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="img/tufte-book.jpg" /></td>
+<td align="center"><img src="img/cdwt-book.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p>We will be looking at examples from these texts over the duration of the semester.</p>
+</div>
+<div id="software" class="section level3">
+<h3>Software</h3>
+<p>We will be using the Tableau software (latest version: 10.2 as of Fall 2017) extensively throughout this semester. Tableau is quickly becoming the industry standard for data visualization, as its drag-and-drop user interface is accessible to people who may be uncomfortable with command-line coding. It is also a powerful way to interact with data through the creation of dashboards. Tableau Desktop 10.0 is not usually free, but is available to you as students through the WSU network. We will be uploading vizzes onto Tableau Public, which is free to anybody. Time permitting we will also cover the R package ggplot2. This is the standard for graphics within R, and is better suited for static statistical graphics than Tableau.</p>
+</div>
+<div id="learning-outcomes" class="section level3">
+<h3>Learning outcomes</h3>
 <ul>
-<li><strong>JMP -</strong> available from WSU network for free. <a href="https://silasbergen.github.io/JMP_installation.html">Download instructions</a></li>
-<li><strong>Tinkerplots</strong> - costs $7. <a href="https://silasbergen.github.io/Tinkerplots.pdf">Download instructions</a></li>
+<li>Students will be able to identify and describe the methods and techniques commonly used to describe data both numerically and visually.</li>
+<li>Students will be able to use appropriate methods to summarize and visualize data based upon the data type and the goals of the analysis.</li>
+<li>Students will be able to demonstrate the ability to clean and prepare data for the summarization and visualization process.</li>
+<li>Students will demonstrate the ability to summarize and visualize relationships between variables appropriately given the data type of the variables involved.</li>
+<li>Students will be able to construct an interactive data dashboard to summarize and display the important features of a data set.</li>
 </ul>
-<p><strong><em>Optional text</em></strong></p>
-<p>There is no text required for this course. However, if you would like to refer to a textbook, a good reference is <em>Unlocking the Power of Data</em> by Lock, Lock, Lock, Lock, and Lock.</p>
-<p><strong><em>Prerequisites</em></strong></p>
-<p>Qualifying score on the mathematics placement exam or MATH 050.</p>
-<p><strong><em>Basic Skills Learning Outcomes</em></strong></p>
-<p>This course can be used to satisfy the University Studies Program’s requirements for Basic Skills in Mathematics or Goal Area 4 under the new General Education Program. This includes requirements and learning activities that will promote your abilities to.</p>
+</div>
+<div id="assessments" class="section level3">
+<h3>Assessments</h3>
 <ul>
-<li><strong>Illustrate historical and contemporary applications of mathematical/logical systems;</strong></li>
-<li><strong>Clearly express mathematical/logical ideas in writing;</strong></li>
-<li><strong>Explain what constitutes a valid mathematical/logical argument (proof); and</strong></li>
-<li><strong>Apply higher-order problem-solving and/or modeling strategies.</strong></li>
+<li>Attendance and participation (10%)</li>
 </ul>
-<p><strong><em>Additional learning outcomes</em></strong></p>
-<p>The successful Stat 110 student will be able to.</p>
-<ul>
-<li><p><strong>use logical reasoning by studying mathematical patterns and relationships</strong> One of the major goals of statistics is to find patterns and relationships in datasets. Hence almost all lectures, homework problems, and test questions in the course have the study of patterns for variables and relationships between variables as their basis.</p></li>
-<li><p><strong>use mathematical models to describe real-world phenomena and to solve real-world problems - as well as understand the limitations of models in making predictions and drawing conclusions</strong> In all of the textbooks and course notes used in STAT 110 the majority of the problems are real-world based and are “word” problems. Further, all instructors require the students when doing such problems to write conclusions and discuss limitations.</p></li>
-<li><p><strong>organize data, communicate the essential features of the data, and interpret the data in a meaningful way</strong> This is the heart of STAT 110. The topics covered are chosen so that students who complete the course can organize data, communicate essential features of the data both numerically and graphically and provide interpretations/conclusions.</p></li>
-<li><p><strong>do a critical analysis of scientific and other research</strong> The scientific method is discussed early in the course. The logic of hypothesis testing is discussed in detail. Further, on tests and written assignments the students are expected to go beyond a simple analysis and provide implications, interpretations, and conclusions.</p></li>
-<li><p><strong>extract correct information from tables and common graphical displays, such as line graphs, scatter plots, histograms, and frequency tables</strong> All of these topics are explicitly taught in STAT 110 and are on the course outline. Please note that “line graphs” is subsumed under “Frequency distributions and histograms”. Also, please note that “scatter plots” are more formally called “Bivariate displays” by statisticians.</p></li>
-<li><p><strong>express the relationships illustrated in graphical displays and tables clearly and correctly in words</strong> As can be seen from the course outline, graphical displays and tables cover a significant portion of the course content. As discussed above, interpretation in words is expected by all instructors on homework and tests.</p></li>
-<li><p><strong>use appropriate technology to describe and solve quantitative problems.</strong> As stated on the course outline, “It is required that at least one assignment using an appropriate computer package be included in the course.” In this section of STAT 110, we will primarily use a statistical software package called JMP.</p></li>
-</ul>
-<p><strong><em>Assessment tasks</em></strong></p>
-<p>The following assessments will be used to gauge growth in the Basic Skills and additional learning outcomes.</p>
-<p><em>Attendance (10%)</em></p>
-<p>Attending class is very important. The lecture notes are “gap style,” meaning there are many places where they are incomplete and answers will be given in class. Although I will try to post completed notes online after the lecture, it is better for your learning if you are in class. Accordingly, to incentivize attendance, lectures will contain many multiple choice or short answer questions that you will need to answer using TopHat. You get 1 point each time you answer a question. At the end of the course, your total participation score will be weighted at 10% of your total grade.</p>
-<p><em>Group homework assignments (40%)</em></p>
-<p>There are a number of drawbacks to coming to class only to hear me lecture:</p>
-<ul>
-<li>It may be hard to pay attention</li>
-<li>I may not explain concepts in a way that is the best way for <em>you</em> to understand</li>
-<li>I get tired of hearing myself talk!</li>
-</ul>
-<p>Thus, roughly half of the in-class time will be spent doing group homework assignments. There are a number of benefits to in-class group assignments:</p>
-<ul>
-<li>No (or at least, very little) homework outside of class!<br />
-</li>
-<li>You get to explain concepts to, and hear explanations from, your classmates. It’s very likely that I will explain a concept in a way you did not understand, but a classmate will explain it to you in a way that you can understand.</li>
-<li>Those of you who <em>do</em> understand a concept will understand it <em>ever better</em> when you try to explain it to a classmate!</li>
-<li>I am there in class with you, so as to better answer your questions as they arise.</li>
-</ul>
-<p>I will alternate between randomly assigning you into groups (usually of 3), and allowing you to select your own groups. Students will submit their assignments to D2L, and all students in a group will get the same homework grade. The homework practice concepts learned in class. Homework assignment will often require use of JMP or Tinkerplots. <strong>Homework that is submitted after I have uploaded a key will receive a 0.</strong></p>
-<p><em>Two midterm exams (30%)</em></p>
-<p>These exams will require you to demonstrate your <em>understanding</em> of the material as opposed to your ability to <em>memorize</em> certain concepts. The format will primarily be a combination of short answer, multiple choice, and T/F. Exam dates will be announced at least one week in advance. Rescheduling of an exam will be permitted only if there is a family/medical emergency. Also, <strong>you must contact me before the exam is to be taken</strong>. Arrangements will be made for the exam to be taken at an earlier time, if at all possible.</p>
-<p><em>Final exam (20%)</em></p>
-<p>This exam will include material covered since the second midterm exam as well as material learned over the course of the entire semester.</p>
-<p><strong><em>Final grades</em></strong></p>
-<p>Final grades will be a percent that accounts for work on homework and exams. Final grades will be assigned as follows:</p>
-<ul>
-<li>90-100%: A</li>
-<li>80-89%: Guaranteed at least a B</li>
-<li>70-79%: Guaranteed at least a C</li>
-<li>60-69%: Guaranteed at least a D</li>
-<li>&lt;60%: No lower than F</li>
-</ul>
-<p><strong><em>Laptops</em></strong></p>
-<p>I encourage you to bring your laptop to class every day so that our classroom can function as a computer lab. I expect you to use your laptop in class for <strong>ACADEMIC PURPOSES ONLY</strong>! Also having a FULL BATTERY (or nearly full) is really beneficial!</p>
-<p><strong><em>Academic integrity policy</em></strong></p>
-<p>All students must abide by Winona State University’s <a href="http://www.winona.edu/sld/academicintegrity.asp">Academic Integrity Policy</a>. Note that both copying another student’s work and allowing someone to copy your work are clear violations of this policy. If there is reasonable evidence of copying another individual’s work, it will be construed as an act of plagiarism. The first occurrence of violating the academic integrity policy will result in a significant loss of points on that specific homework assignment or exam; the second occurrence will result in failure of the course.</p>
-<p><strong><em>Expectations</em></strong></p>
-<p>In this course, I expect each of you:</p>
-<ul>
-<li><p>to genuinely try your hardest and to demand the best of yourself.</p></li>
-<li><p>to seek help if you are confused or if you are starting to fall behind. Please make use of my office hours or the tutoring available via WSU Tutoring Services.</p></li>
-<li><p>to be an active learner. This involves ATTENDING and PARTICIPATING in class.</p></li>
-</ul>
-<p>In return, you can expect the following from me:</p>
-<ul>
-<li><p>a sincere desire for you to learn and an effort to support you in your learning.</p></li>
-<li><p>an honest attempt to be fair to everyone in the class.</p></li>
-<li><p>an effort to make the learning atmosphere productive and enjoyable.</p></li>
-</ul>
-<p><strong><em>DETAILS ABOUT CAMPUS RESOURCES</em></strong></p>
-<ul>
-<li>Free tutoring is available via tutoring services. You can schedule appointments with tutors during times that fit with your schedule. See <a href="http://www.winona.edu/tutoring/" class="uri">http://www.winona.edu/tutoring/</a> for more.</li>
-</ul>
-<!-- -->
-<ul>
-<li>Two good places to help you find resources of all kinds on campus are <em><a href="https://www.winona.edu/studentsupportservices/">Student Support</a>.</em> This is essentially “home base” for student services, and can direct you to other more specific resources. Examples of resources at Student Support:</li>
-</ul>
-<!-- -->
 <blockquote>
-<ul>
-<li>Academic advising</li>
-<li>Help exploring major and minor options</li>
-<li>Career exploration</li>
-<li>Assistance in navigating the Financial Aid system</li>
-<li>Budget and money management skills</li>
-<li>Tutoring and/or supplemental instruction</li>
-<li>Study skills coaching</li>
-<li>Time management training</li>
-<li>Leadership skill development</li>
-<li>Support for students with documented disabilities</li>
-<li>Support for students who are parents</li>
-<li>Assistance preparing for graduate and professional programs</li>
-<li>Assistance with writing resumes and cover letters</li>
-<li>Cultural and social enrichment opportunities</li>
-<li>Referrals to on-campus and off-campus resources</li>
-</ul>
+<p>DSCI 310 will be heavy on in-class discussion and visualization designs. It is important that all students are a part of these discussions. There will also be many in-class data visualization activities in which it is important for you to participate. Accordingly, I will take attendance almost every day throughout the semester and it will be weighted at 10% of your final grade.</p>
 </blockquote>
-<!-- -->
 <ul>
-<li><p>If you have a disability, the <em><a href="http://www.winona.edu/accessservices/">Access Services</a></em> office can document it for your professors and facilitate accommodations. If you have a documented disability that requires accommodation, please contact Access Services as soon as possible.</p></li>
-<li><p>College can be very stressful. <em><a href="http://www.winona.edu/counselingservices/">Counseling Services</a></em> offices on both campuses are here to help you with a wide range of difficulties, ranging from sexual assault, depression, and grief after the loss of a loved one to stress management, anxiety, general adjustment to college, and many others.</p></li>
-<li><p>The <a href="https://www.winona.edu/inclusion-diversity/KEAP.asp"><em>KEAP Center</em></a> in Kryszko 162 works in partnership with the Inclusion and Diversity Office to create a safe space and an inclusive atmosphere for diverse persons, organizations and groups. This includes people with issues related to:</p></li>
+<li>Visualization critiques (15%)</li>
 </ul>
-<!-- -->
 <blockquote>
-<ul>
-<li>Race, Ethnicity and National Origin</li>
-<li>Gender</li>
-<li>Age</li>
-<li>Religion and Beliefs</li>
-<li>Ability Levels</li>
-<li>Economic Status</li>
-<li>Gender and Sexual Identity</li>
-</ul>
+<p>Students will be required to submit frequent critiques of assigned visualizations. At the beginning of the semester, critiques will mostly be of visualizations I provide you. As the semester progresses, you will also critique your peers’ visualizations using the peer grading resouce <a href="https://www.crowdgrader.org/">CrowdGrader</a>. Becoming an effective critic is imperative for your own growth as a visualization designer; hence completing thorough critiques is a non-trivial component of your final grade. I will provide you with a rubric to use when you critique your peers’ visualizations.</p>
 </blockquote>
-<!-- -->
 <ul>
-<li>To find out about web registration, placement tests, program requirements and support tools to help students succeed, visit the <em>Advising Services</em> office and website for answers to all your questions!</li>
+<li>Exam (10%)</li>
 </ul>
-<p><strong><em>Commitment to inclusive excellence</em></strong></p>
-<p>WSU recognizes that our individual differences can deepen our understanding of one another and the world around us, rather than divide us. In this class, people of all ethnicities, genders, religions, ages, sexual orientations, disabilities, socioeconomic backgrounds, regions, and nationalities are strongly encouraged to share their rich array of perspectives and experiences. If you feel your differences may in some way isolate you from WSU’s community or if you have a need of any specific accommodations, please speak with the instructor early in the semester about your concerns and what we can do together to help you become an active and engaged member of our class and community.</p>
-<p><strong><em>Tentative course outline</em></strong></p>
+<blockquote>
+<p>There will be one exam in this course, covering visual theory and best practices as well as visualization creation. The exam will assess studentsâ abilities to critique visualizations, and suggest improvements, by applying perceptual theory and other concepts covered in class.</p>
+</blockquote>
+<ul>
+<li>Design tasks (15%)</li>
+</ul>
+<blockquote>
+<p>There will be frequent design tasks where students will be presented with a data set and asked to create a viz summarizing important aspects of the data set. Some design tasks will come with their own questions of interest, while others may require the student to explore the data in order to find and visualize their own questions of interest. Some design tasks may require a nontrivial amount of data wrangling to get the data into a format suitable for visualizing. All design tasks will include an editing process during which your visualization is critiqued by at least 2 peers and you will have a chance to edit your visualization as a result of these critiques.</p>
+</blockquote>
+<ul>
+<li>Midterm group project (20%)</li>
+</ul>
+<blockquote>
+<p>There will be one midterm group project at various points in the semester. This projects will consist of oral presentations of the projects to the entire class.</p>
+</blockquote>
+<ul>
+<li>Final project (30%)</li>
+</ul>
+<blockquote>
+<p>Each student will be required to find their own data set and visualize it using a series of interactive Dashboards. Each student will prepare a presentation for the class providing the context of their data set, questions posed by the data, and visualizations that communicate the answers to those questions. The data set and a set of preliminary questions must be approved by the instructor.</p>
+</blockquote>
+</div>
+<div id="tentative-course-topics" class="section level3">
+<h3>Tentative course topics</h3>
 <ol style="list-style-type: decimal">
-<li><p>Introduction to data</p></li>
-<li><p>Descriptive Methods for a Single Variable</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Barplots, counts, percents</p></li>
-<li><p>Histograms, mean/median, quantiles, standard deviation</p></li>
-</ol></li>
-<li><p>Describing associations between 2 variables</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Mosaic plots</p></li>
-<li><p>Boxplots</p></li>
-<li><p>Scatterplots</p></li>
-</ol></li>
-<li><p>Multivariable thinking</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Confounding</p></li>
-<li><p>Confounding adjustment</p></li>
-</ol></li>
-<li><p>Introduction to inferential thinking</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Introduction to Statistical Thinking</p></li>
-<li><p>Some Definitions</p></li>
-<li><p>The Importance of Random Sampling</p></li>
-</ol></li>
-<li><p>Methods for a Single Categorical Variable</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Descriptive Methods</p></li>
-<li><p>Discussion of Sample-to-Sample Variation</p></li>
-<li><p>Using the Binomial Probability Model to Make Decisions</p></li>
-<li><p>Formal Statistical Inference (Binomial Exact Test, Confidence Interval for a Single Proportion, Chi-Square Goodness of Fit Test)</p></li>
-</ol></li>
-<li><p>Methods for Two or More Categorical Variables</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Descriptive Methods</p></li>
-<li><p>More Descriptive Methods: Relative Risk and Odds Ratios</p></li>
-<li><p>Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of Proportions)</p></li>
-<li><p>Understanding the Basics of Experimental Design and Correlation vs. Causation</p></li>
-<li><p>Inferences for Comparing Several Proportions Across Another Variable (Chi-Square Test)</p></li>
-</ol></li>
-<li><p>Inferential Methods for a Single Numerical Variable</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Inference for a Single Mean (t-test and confidence interval for a single mean)</p></li>
-<li><p>Inference for Comparing Two Means with Dependent Groups (paired t-test, confidence interval for a mean difference)</p></li>
-<li><p>Inference for Comparing Two Means with Independent Groups (t-test for independent samples, confidence interval for a difference in means)</p></li>
-<li><p>Inference for Comparing Several Group Means (ANOVA)</p></li>
-</ol></li>
-<li><p>Methods for Two or More Numerical Variables</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Descriptive Methods (correlation, scatterplots)</p></li>
-<li><p>Introduction to Simple Linear Regression</p></li>
-</ol></li>
+<li>Principles of effective data visualization</li>
 </ol>
+<blockquote>
+<ul>
+<li>Historical background and examples<br />
+</li>
+<li>How we perceive information: Elementary perceptual tasks (EPT)<br />
+</li>
+<li>What makes a strong graphic?<br />
+</li>
+<li>What makes a poor graphic?<br />
+</li>
+<li>Designing for aesthetic<br />
+</li>
+<li>Data Type (categorical, ordinal, continuous)<br />
+</li>
+<li>Matching data type to the appropriate EPT</li>
+</ul>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li>Visualizing univariate data</li>
+</ol>
+<blockquote>
+<ul>
+<li>Visualization techniques for single categorical field</li>
+<li>Visualization techniques for single quantitative field</li>
+</ul>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li>Visualizing multivariate data</li>
+</ol>
+<blockquote>
+<ul>
+<li>Mosaic and stacked bar charts<br />
+</li>
+<li>Time-series plots<br />
+</li>
+<li>2- and 3-way Scatterplots</li>
+</ul>
+</blockquote>
+<ol start="4" style="list-style-type: decimal">
+<li>Visualizing aggregated data</li>
+</ol>
+<blockquote>
+<ul>
+<li>Rates<br />
+</li>
+<li>Ratios</li>
+</ul>
+</blockquote>
+<ol start="5" style="list-style-type: decimal">
+<li>Visualizing spatial data</li>
+</ol>
+<blockquote>
+<ul>
+<li>Filled maps<br />
+</li>
+<li>Shape-size maps</li>
+</ul>
+</blockquote>
+<ol start="6" style="list-style-type: decimal">
+<li>Data Dashboards</li>
+</ol>
+<blockquote>
+<ul>
+<li>The power of interaction<br />
+</li>
+<li>Interaction via filter<br />
+</li>
+<li>Interaction via parameterization<br />
+</li>
+<li>View filtering</li>
+</ul>
+</blockquote>
 </div>
 
 

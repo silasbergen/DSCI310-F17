@@ -1,13 +1,8 @@
----
-title: "Syllabus"
-output: html_document
----
-
-### DSCI 310: Data summarization and visualization
-### Fall 2017
-### INSTRUCTOR: Dr. Silas Bergen
-### OFFICE: Gildemeister 124D
-### [Office hours](Schedule.html)
+## Syllabus
+### Data Science 310: Data Summary and Visualization 
+### Dr. Silas Bergen
+### Office: Gild 124D
+### Office Hours: TBD
 
 ### Course overview
 The amount and extent of data in our world is growing extremely rapidly. 
@@ -95,40 +90,34 @@ and visualizations that communicate the answers to those questions. The data set
 
 
 ### Tentative course topics
-1.	Principles of effective data visualization   
+1.	Principles of effective data visualization
+ > * Historical background and examples
+> * How we perceive information: Elementary perceptual tasks (EPT)
+> * What makes a strong graphic?
+> * What makes a poor graphic?
+> * Designing for aesthetic
+> * Data Type (categorical, ordinal, continuous)
+> * Matching data type to the appropriate EPT
 
->* Historical background and examples    
->* How we perceive information: Elementary perceptual tasks (EPT)    
->* What makes a strong graphic?    
->* What makes a poor graphic?  
->* Designing for aesthetic  
->* Data Type (categorical, ordinal, continuous)  
->* Matching data type to the appropriate EPT  
+2.	Visualizing univariate data
+>* Visualization techniques for single categorical field
+>* Visualization techniques for single quantitative field
 
-2.	Visualizing univariate data 
-
->* Visualization techniques for single categorical field 
->* Visualization techniques for single quantitative field 
-
-3.	Visualizing multivariate data  
-
->* Mosaic and stacked bar charts   
->* Time-series plots  
->* 2- and 3-way Scatterplots  
+3.	Visualizing multivariate data
+>* Mosaic and stacked bar charts
+>* Time-series plots
+>* 2- and 3-way Scatterplots
 
 4.	Visualizing aggregated data
-
->* Rates  
->* Ratios  
+>* Rates
+>* Ratios
 
 5.	Visualizing spatial data
-
->* Filled maps  
->* Shape-size maps  
+>* Filled maps
+>* Shape-size maps
 
 6.	Data Dashboards
-
->* The power of interaction  
->* Interaction via filter  
->* Interaction via parameterization  
->* View filtering  
+>* The power of interaction
+>* Interaction via filter
+>* Interaction via parameterization
+>* View filtering

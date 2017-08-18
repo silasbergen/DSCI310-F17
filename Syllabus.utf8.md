@@ -72,7 +72,7 @@ I will provide you with a rubric to use when you critique your peers' visualizat
 * Exam (10%)
 
  >There will be one exam in this course, covering visual theory and best practices as well as visualization creation. 
-The exam will assess students’ abilities to critique visualizations, and suggest improvements, by applying perceptual theory and other concepts covered in class.
+The exam will assess studentsâ abilities to critique visualizations, and suggest improvements, by applying perceptual theory and other concepts covered in class.
 
 * Design tasks (15%)
 
