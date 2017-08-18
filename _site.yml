@@ -8,7 +8,7 @@ navbar:
       href: Schedule.html
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/datacarpentry/R-ecology-lesson
+      href: https://silasbergen.github.io/
 output_dir: "."
 exclude: ["CONTRIBUT*.md","index.md","README.md","*.db"]
 include: ["*.Rmd","LICENSE.md"]
@@ -18,6 +18,7 @@ output:
     toc: false
     toc_float:
       collapsed: false
-    include:
-      after_body: footer.html
+  #  include:
+   #   before_body: footer.html
+   #   after_body: footer.html
     css: style.css
