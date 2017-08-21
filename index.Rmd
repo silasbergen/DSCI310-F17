@@ -7,10 +7,12 @@ author: Fall 2017
 ### [Office hours](Schedule.html)
 ### Announcements
 
-Complete the two courses on dplyr by 9/8/2017.
+* Complete the two courses on dplyr by 9/8/2017 (see Resources below).  
+* Sign up for a [CrowdGrader](https://www.crowdgrader.org/) student account (costs \$1.99)
 
 ### Notes
-* Note set 1
+
+* [Principles of data visualization](https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0)
 
 ### Resources
 
