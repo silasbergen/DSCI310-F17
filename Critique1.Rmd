@@ -1,0 +1,19 @@
+---
+title: "Critique #1"
+author: "DSCI 310: Fall 2017"
+output: html_document
+---
+
+Charles Joseph Minard's famous visualization of Napoleon's disastrous march on Russia in 1812 earned Ed Tufte's glowing praise: ["Probably the best statistical graphic ever drawn."](https://www.edwardtufte.com/tufte/posters)
+
+![](http://nowscape.com/images/map_napoleon_moscow.gif)
+
+Read this [excellent description and analysis](https://robots.thoughtbot.com/analyzing-minards-visualization-of-napoleons-1812-march) by Joanne Cheng, then submit your answers to the following questions on D2L:
+
+1.  What are the variables that are encoded in this visualization?  
+
+2. For each, state whether it is categorical nominal; categorical ordinal; or quantitative.  
+
+3. What elementary perceptual tasks are used to encode each variable? 
+
+4.  Do you agree with Tufte's assessment?  Regardless, find a graph that *you* think is impressive, and include a link.  Briefly describe why it impresses you, using justification that cites concepts discussed in class.
