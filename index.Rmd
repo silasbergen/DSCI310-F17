@@ -16,7 +16,7 @@ author: Fall 2017
 
 ### Resources
 
-* [Data camp courses on dplyr](https://www.datacamp.com/groups/5fe0c6e4767b9b01bd632c7e85b0d2215d190c61/invite)
+* Additional courses on R provided by [Data Camp](https://www.datacamp.com/)
 
 ### Critiques 
 
