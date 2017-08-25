@@ -12,7 +12,9 @@ author: Fall 2017
 
 ### Notes
 
-* [Principles of data visualization](https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0)
+1. [Principles of data visualization](https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0)
+2. [Intro to Tableau](https://www.dropbox.com/s/e8yp85lamhq1gwr/2%20-%20Intro%20to%20Tableau-F17.docx?dl=0)
+3. [Univariate visualizations](https://www.dropbox.com/s/7jy0mpimp94gyj0/3%20-%20Univariate%20visualizations-F17.docx?dl=0)
 
 ### Resources
 
@@ -23,4 +25,9 @@ author: Fall 2017
 * [Critique #1 (due Wednesday, 8/30 by 11:59pm)](Critique1.html)
 
 ### Design tasks 
+
+### Data
+
+* [World bank regions](https://www.dropbox.com/s/0m28op23nou0xaj/worldbankregions.csv?dl=0)
+* [World bank indicators](https://www.dropbox.com/s/dqp1wlha7h578fp/WorldBank-clean.csv?dl=0)
 
