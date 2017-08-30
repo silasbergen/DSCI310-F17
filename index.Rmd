@@ -7,18 +7,20 @@ author: Fall 2017
 ### [Office hours](Schedule.html)
 ### Announcements
 
-* Complete the two courses on dplyr by 9/8/2017 (see Resources below).  
-* Sign up for a [CrowdGrader](https://www.crowdgrader.org/) student account (costs \$1.99)
+* No class 9/1; enjoy the long weekend!
+* Design Task #1 is assigned; see below.
 
 ### Notes
 
 1. [Principles of data visualization](https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0)
 2. [Intro to Tableau](https://www.dropbox.com/s/e8yp85lamhq1gwr/2%20-%20Intro%20to%20Tableau-F17.docx?dl=0)
 3. [Univariate visualizations](https://www.dropbox.com/s/7jy0mpimp94gyj0/3%20-%20Univariate%20visualizations-F17.docx?dl=0)
+4. [Multivariate visualizations](https://www.dropbox.com/s/68aul6yh1im6mt8/4%20-%20Multivariate%20visualizations%20-%20F17.docx?dl=0)
 
 ### Resources
 
 * Additional courses on R provided by [Data Camp](https://www.datacamp.com/)
+* [CrowdGrader instructional video](https://mediaspace.mnscu.edu/media/CrowdGrader+Instructions/0_6sfxk3a6)
 
 ### Critiques 
 
@@ -26,8 +28,10 @@ author: Fall 2017
 
 ### Design tasks 
 
-### Data
+* [Design Task 1](https://www.dropbox.com/s/14k8e9ncl7ydxat/DT1-F17.docx?dl=0) | First draft to CrowdGrader: 9/3 ([link to CrowdGrader assignment](https://www.crowdgrader.org/crowdgrader/venues/join/3338/wyseba_dytybo_dynumi_cywyro)) | Critiques due: 9/7 | Final draft to D2L: 9/10
 
+### Data
+* [Burtin's bacteria data](https://www.dropbox.com/s/y3uyg808m0y0zii/Bacteria.csv?dl=0)
 * [World bank regions](https://www.dropbox.com/s/0m28op23nou0xaj/worldbankregions.csv?dl=0)
 * [World bank indicators](https://www.dropbox.com/s/dqp1wlha7h578fp/WorldBank-clean.csv?dl=0)
 
