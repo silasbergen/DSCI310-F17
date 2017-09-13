@@ -1,0 +1,12 @@
+---
+title: "Play Day Task"
+author: 9-13-17
+---
+
+
+Consider the [Major League Baseball Standings data](https://www.dropbox.com/s/yaqv5afaz1rp9j6/MLB-Standings-2016-2017.xlsx?dl=0).  There are two worksheets in this Excel file: one with 2016 standings, and one with 2017 standings.  The important variables in each are the team names (Tm); actual winning percentage (W-L%); and predicted winning percentage (pythWPct), which is each team's predicted winning percentage based on the number of points ("runs") scored by and against that team.  
+
+Questions to be answered (no restrictions!):
+
+* Which teams' winning percentages most improved the most from 2016-2017?  Which teams got much worse?
+* Which teams are most underperforming and overperforming their predicted winning percentage in 2017?  

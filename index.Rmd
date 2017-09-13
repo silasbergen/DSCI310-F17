@@ -31,10 +31,16 @@ author: Fall 2017
 * [Design Task 1](https://www.dropbox.com/s/14k8e9ncl7ydxat/DT1-F17.docx?dl=0) | First draft to CrowdGrader: 9/3 ([link to CrowdGrader assignment](https://www.crowdgrader.org/crowdgrader/venues/join/3338/wyseba_dytybo_dynumi_cywyro)) | Critiques due: 9/7 | Final draft to D2L: 9/10
 * [Design Task 2](https://www.dropbox.com/s/qh9t5ac9du0b50t/DT2-F17.docx?dl=0) | First draft to CrowdGrader: 9/15 (midnight) ([link to CrowdGrader assignment](https://www.crowdgrader.org/crowdgrader/venues/join/3350/nycysa_nupugi_mosety_bufasi)) | Critiques due: 9/18 (noon) | Final draft to D2L: 9/20 (midnight)
 
+
+### Play days!
+
+* [Play day 1](PlayDay1.html), begins 9/13
+
 ### Data
 * [Burtin's bacteria data](https://www.dropbox.com/s/y3uyg808m0y0zii/Bacteria.csv?dl=0)
 * [IPUMS-Sex-Age](https://www.dropbox.com/s/ftid3df9962i2il/IPUMS-Sex-Age.csv?dl=0)
 * [IPUMS-Sex-EdAttain](https://www.dropbox.com/s/tojah0h83cmypnd/IPUMS-Sex-EdAttain.csv?dl=0)
+* [Vox data](https://www.dropbox.com/s/tvoeu4dwsgzmg75/Vox.csv?dl=0)
 * [World bank regions](https://www.dropbox.com/s/0m28op23nou0xaj/worldbankregions.csv?dl=0)
 * [World bank indicators](https://www.dropbox.com/s/dqp1wlha7h578fp/WorldBank-clean.csv?dl=0)
 
