@@ -17,6 +17,7 @@ author: Fall 2017
 4. [Multivariate visualizations](https://www.dropbox.com/s/68aul6yh1im6mt8/4%20-%20Multivariate%20visualizations%20-%20F17.docx?dl=0)
 5. [3-way scatterplots and maps](https://www.dropbox.com/s/ooqwo2ml7i3mctx/5%20-%20three-way%20scatterplots%20and%20maps%20-%20F17.docx?dl=0)
 6. [Interactive Dashboards](https://www.dropbox.com/s/jz98g08jnkhvzli/6%20-%20Interactive%20dashboards%20-%20F17.docx?dl=0)
+7. [Data visualization in R with ggplot2](Intro_to_ggplot2.html)
 
 ### Resources
 
