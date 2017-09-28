@@ -1,0 +1,15 @@
+---
+title: "Critique 2"
+author: "DSCI 310: Fall 2017"
+output: html_document
+---
+
+As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and exerpts of Chapter 8 (sales dashboard examples) from Stephen Few's 2006 book *Information Dashboard Design*.   I have scanned the relevant chapters for you.  
+
+After reading Chapter 3 and 7, look at the eight sample sales dashboards from Chapter 8.  Prepare 3 bullet points critiquing each dashboard (so 24 bullet points total), using the ideas from Chapters 3 and 7, and submit these to D2L.  
+
+Following submission of your critiques beginning on Monday 10/9, we will discuss the example dashboards in class.  I will randomly call on individuals to provide their critiques to the class, so make sure you are prepared!  We will also discuss Few's comments on the same eight dashboards.   
+
+A zip file of the three chapters are below.  For copyright reasons, the pdfs are password protected.  Use the password sent via email to access the pdfs.
+
+* [Zip file with Chs 3, 7, and sales dashboards (password sent via email)](https://www.dropbox.com/s/l2hn0fz3q1opkm7/Info_Dashboard_Design_Excerpts.zip?dl=0)

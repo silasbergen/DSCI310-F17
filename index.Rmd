@@ -28,6 +28,7 @@ author: Fall 2017
 ### Critiques 
 
 * [Critique #1 (due Wednesday, 8/30 by 11:59pm)](Critique1.html) | [Discussion slides](https://www.dropbox.com/s/t911qfc8uihftzg/DT1-comments-F17.pptx?dl=0)
+* [Critique #2 (due Sunday 10/8 by 11:59pm)](Critique2.html)
 
 ### Design tasks 
 
