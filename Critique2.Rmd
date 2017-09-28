@@ -4,7 +4,7 @@ author: "DSCI 310: Fall 2017"
 output: html_document
 ---
 
-As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and exerpts of Chapter 8 (sales dashboard examples) from Stephen Few's 2006 book *Information Dashboard Design*.   I have scanned the relevant chapters for you.  
+As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and excerpts from Chapter 8 (sales dashboard examples) from Stephen Few's 2006 book *Information Dashboard Design*.   I have scanned the relevant chapters for you.  
 
 After reading Chapter 3 and 7, look at the eight sample sales dashboards from Chapter 8.  Prepare 3 bullet points critiquing each dashboard (so 24 bullet points total), using the ideas from Chapters 3 and 7, and submit these to D2L.  
 
