@@ -24,6 +24,7 @@ author: Fall 2017
 * Additional courses on R provided by [Data Camp](https://www.datacamp.com/)
 * [CrowdGrader instructional video](https://mediaspace.mnscu.edu/media/CrowdGrader+Instructions/0_6sfxk3a6)
 * [Dr. Tom Grier's visual communication notes](https://www.dropbox.com/s/kumcs4y9tfoxjl7/VisCom-Composition-EyeBrain%20%28002%29.ppt?dl=0)
+* [Slides for Dr. Eastman's critiques](https://www.dropbox.com/s/bvbdjkhzgtwk628/Images_For_Eastman.pptx?dl=0)
 
 ### Critiques 
 
