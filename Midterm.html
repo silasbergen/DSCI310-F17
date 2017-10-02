@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="DSCI 310: Fall 2017" />
+
+
+<title>Midterm project</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="Schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://silasbergen.github.io/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Midterm project</h1>
+<h4 class="author"><em>DSCI 310: Fall 2017</em></h4>
+
+</div>
+
+
+<p>For this semester’s midterm project, we will be participating in the American Statistical Association’s <a href="http://thisisstatistics.org/policedatachallenge">Police Data Challenge</a>. Read the information on the website for many more details. For the midterm project, <strong><em>all students</em></strong> should visualize the Seattle data set.</p>
+<ul>
+<li><p><a href="http://thisisstatistics.org/wp-content/uploads/2017/09/Police-Data-Challenge-Rules.pdf">Detailed version of the rules</a>.</p></li>
+<li><p>Fill out <a href="http://thisisstatistics.org/police-data-challenge-2017-declare-your-intent/">declaration of intent form</a> by <strong><em>Friday, October 6</em></strong>. Only one team member needs to submit the form. List me (Silas Bergen) as your sponsor.</p></li>
+</ul>
+<p>From the website:</p>
+<blockquote>
+<p>Awards will be given in three categories (1) Best Overall Analysis, (2) Best Visualization, and (3) Best Use of External Data.</p>
+</blockquote>
+<blockquote>
+<p>Winning teams will receive a $50 Amazon gift card, complimentary memberships to ASA, and a Police Data Challenge 2017 t-shirt, along with bragging rights and a chance to have an impact on local communities.</p>
+</blockquote>
+<blockquote>
+<p>Winners also will be profiled and promoted to ASA’s membership of leading statisticians and data scientists in academia, industry, business, and government, and through ASA’s public education campaign, ThisisStatistics. Second and third place winners will also be recognized.</p>
+</blockquote>
+<div id="requirements-for-the-competition" class="section level3">
+<h3>Requirements for the competition</h3>
+<p>Prepare the materials that you need to submit to the competition: PowerPoint presentation with up to 10 slides, and document with <span class="math inline">\(\leq 500\)</span> words detailing your process. Each team should submit these files by Nov 3.</p>
+</div>
+<div id="additional-requirements-for-dsci-310-midterm" class="section level3">
+<h3>Additional requirements for DSCI 310 Midterm</h3>
+<p>The main additional requirement is to use Census data <em>to some extent</em> in your project. One way is to merge Census Tract information with the Tract information in the Seattle data file. A very nice R package for downloading Census data is <code>tidycensus</code>, especially the function <code>get_acs()</code>. This function makes use of the Census API, specifically reading in data from the <a href="https://www.census.gov/programs-surveys/acs/about.html">American Community Survey (ACS)</a>.</p>
+<ul>
+<li><a href="https://www.census.gov/data/developers/data-sets/acs-5year.html">More information on the ACS API</a></li>
+<li><a href="https://api.census.gov/data/2015/acs5/variables.html">Complete list of 2011-2015 ACS variables</a></li>
+<li><a href="https://walkerke.github.io/tidycensus/articles/basic-usage.html">Nice overview of <code>tidycensus</code> by its author, Kyle Walker</a></li>
+</ul>
+<p>Additionally, each team will present their PowerPoint slides beginning on <strong><em>October 30</em></strong> (so really, the deadline to have your PowerPoint done is 10/30, not 3/3).</p>
+</div>
+<div id="group-assignments" class="section level3">
+<h3>Group assignments</h3>
+<p>Professionally, you will not get to always choose your own groups. For the midterm project you will be assigned into groups, which are listed below. Divide the work, and conquer!</p>
+<ul>
+<li>Group 1:
+<ul>
+<li>Jack Barta</li>
+<li>Sam Meyer</li>
+<li>Mariah Quam</li>
+</ul></li>
+<li>Group 2:
+<ul>
+<li>Fengrui Xue</li>
+<li>Thomas Gathje</li>
+<li>Max Oelerking</li>
+</ul></li>
+<li>Group 3:
+<ul>
+<li>Kapil Khanal</li>
+<li>Luke Peacock</li>
+<li>Jimmy Hickey</li>
+</ul></li>
+<li>Group 4:
+<ul>
+<li>Will Diedrick</li>
+<li>Yulun Xu</li>
+<li>Adam Clemens</li>
+<li>Lauren Willkom</li>
+</ul></li>
+<li>Group 5:
+<ul>
+<li>Slaman Quraishi</li>
+<li>Waheed Khan</li>
+<li>Linh Nguyen</li>
+</ul></li>
+<li>Group 6:
+<ul>
+<li>Nathan Smith</li>
+<li>Paul Boelter</li>
+<li>David Stampley</li>
+<li>Akif Khan</li>
+</ul></li>
+<li>Group 7:
+<ul>
+<li>Austin Ellingworth</li>
+<li>Brad Erickson</li>
+<li>Sam Dokkebakken</li>
+</ul></li>
+<li>Group 8:
+<ul>
+<li>Matthew Ladin</li>
+<li>McHale Dye</li>
+<li>Catherine Nead</li>
+</ul></li>
+<li>Group 9:
+<ul>
+<li>Stacey Miertschin</li>
+<li>Reagan Buske</li>
+<li>Ross Krueger</li>
+</ul></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+---
+title: "Midterm project"
+author: "DSCI 310: Fall 2017"
+output: html_document
+---
+
+For this semester's midterm project, we will be participating in the American Statistical Association's [Police Data Challenge](http://thisisstatistics.org/policedatachallenge). Read the information on the website for many more details.  For the midterm project, ***all students*** should visualize the Seattle data set. 
+
+
+* [Detailed version of the rules](http://thisisstatistics.org/wp-content/uploads/2017/09/Police-Data-Challenge-Rules.pdf).  
+
+* Fill out [declaration of intent form](http://thisisstatistics.org/police-data-challenge-2017-declare-your-intent/) by ***Friday, October 6***.  Only one team member needs to submit the form.  List me (Silas Bergen) as your sponsor.  
+
+
+From the website: 
+
+> Awards will be given in three categories (1) Best Overall Analysis, (2) Best Visualization, and (3) Best Use of External Data.
+
+> Winning teams will receive a $50 Amazon gift card, complimentary memberships to ASA, and a Police Data Challenge 2017 t-shirt, along with bragging rights and a chance to have an impact on local communities.  
+
+> Winners also will be profiled and promoted to ASA's membership of leading statisticians and data scientists in academia, industry, business, and government, and through ASA's public education campaign, ThisisStatistics. Second and third place winners will also be recognized. 
+
+###Requirements for the competition
+
+Prepare the materials that you need to submit to the competition: PowerPoint presentation with up to 10 slides, and document with $\leq 500$ words detailing your process.  Each team should submit these files by Nov 3. 
+
+
+###Additional requirements for DSCI 310 Midterm
+
+The main additional requirement is to use Census data *to some extent* in your project.  One way is to merge Census Tract information with the Tract information in the Seattle data file.  A very nice R package for downloading Census data is `tidycensus`, especially the function `get_acs()`.  This function makes use of the Census API, specifically reading in data from the [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/about.html).  
+
+* [More information on the ACS API](https://www.census.gov/data/developers/data-sets/acs-5year.html)
+* [Complete list of 2011-2015 ACS variables](https://api.census.gov/data/2015/acs5/variables.html)
+* [Nice overview of `tidycensus` by its author, Kyle Walker](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
+
+Additionally, each team will present their PowerPoint slides beginning on ***October 30*** (so really, the deadline to have your PowerPoint done is 10/30, not 3/3).   
+
+### Group assignments
+
+Professionally, you will not get to always choose your own groups.  For the midterm project you will be assigned into groups, which are listed below.  Divide the work, and conquer!
+
+* Group 1:  
+    - Jack Barta
+    - Sam Meyer
+    - Mariah Quam
+
+* Group 2:  
+    - Fengrui Xue
+    - Thomas Gathje
+    - Max Oelerking
+
+* Group 3:   
+    - Kapil Khanal
+    - Luke Peacock
+    - Jimmy Hickey
+
+* Group 4:  
+    - Will Diedrick
+    - Yulun Xu
+    - Adam Clemens
+    - Lauren Willkom
+
+* Group 5:
+    - Slaman Quraishi
+    - Waheed Khan
+    - Linh Nguyen
+
+* Group 6:
+    - Nathan Smith
+    - Paul Boelter
+    - David Stampley
+    - Akif Khan
+
+* Group 7: 
+    - Austin Ellingworth
+    - Brad Erickson
+    - Sam Dokkebakken
+
+* Group 8: 
+    - Matthew Ladin
+    - McHale Dye
+    - Catherine Nead
+
+* Group 9: 
+    - Stacey Miertschin
+    - Reagan Buske
+    - Ross Krueger

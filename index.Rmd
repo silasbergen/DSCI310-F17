@@ -9,6 +9,11 @@ author: Fall 2017
 
 * MinneMUDAC takes place 11/3.  Stay tuned for more details!  Check out the [event website](http://minneanalytics.org/minnemudac/) for more details.
 
+
+### [Midterm project](Midterm.html)
+
+Presentations to begin 10/30. 
+
 ### Notes
 
 1. [Principles of data visualization](https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0)
