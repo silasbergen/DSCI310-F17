@@ -1,0 +1,35 @@
+---
+title: "IPUMS visualization in ggplot2"
+output: html_document
+---
+
+
+Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing.  One possible visualization is shown below.  Can you re-create this visualization?  (Below is for the USA, but you can pick your country of interest.)
+
+
+```{r,warning=FALSE,message=FALSE,echo=FALSE,fig.width=7}
+library(dplyr);library(ggplot2)
+ipums <- read.csv('C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv')
+usa <- ipums %>% filter(Country=='United States')
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+  geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+  facet_grid(.~Year) + 
+  scale_color_discrete(name='Highest education attained') + 
+  theme(axis.text.x = element_text(angle=90))
+```
+
+
+One possible problem with this visualization is that it visualizes counts instead of percents.  Using `dplyr`, re-create the visualization below that shows the percents instead of counts:
+```{r,echo=FALSE}
+sex.totals <- usa%>%group_by(Year,Sex)%>%summarize(Total = sum(Count))
+#head(sex.totals)
+usa2 <- inner_join(usa,sex.totals,by=c('Year','Sex'))%>%mutate(pct = 100*Count/Total)
+ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
+  geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
+  facet_grid(.~Year) + 
+  scale_color_discrete(name='Highest education attained') +
+  ylab('Percent of population') + 
+    theme(axis.text.x = element_text(angle=90))
+
+```
