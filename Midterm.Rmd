@@ -33,7 +33,7 @@ The main additional requirement is to use Census data *to some extent* in your p
 * [Complete list of 2011-2015 ACS variables](https://api.census.gov/data/2015/acs5/variables.html)
 * [Nice overview of `tidycensus` by its author, Kyle Walker](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
 
-Additionally, each team will present their PowerPoint slides beginning on ***October 30*** (so really, the deadline to have your PowerPoint done is 10/30, not 3/3).   
+Additionally, each team will present their PowerPoint slides beginning on ***October 27*** (so really, the deadline to have your PowerPoint done is 10/27, not 3/3).   
 
 ### Group assignments
 
@@ -61,7 +61,7 @@ Professionally, you will not get to always choose your own groups.  For the midt
     - Lauren Willkom
 
 * Group 5:
-    - Slaman Quraishi
+    - Salman Quraishi
     - Waheed Khan
     - Linh Nguyen
 

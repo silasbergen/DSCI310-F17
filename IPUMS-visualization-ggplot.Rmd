@@ -16,7 +16,8 @@ ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=E
   geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
   facet_grid(.~Year) + 
   scale_color_discrete(name='Highest education attained') + 
-  theme(axis.text.x = element_text(angle=90))
+  theme(axis.text.x = element_text(angle=90)) + 
+  scale_y_continuous(name='Count (in millions)', labels = function(x) paste(x / 1000000,'M')) 
 ```
 
 
