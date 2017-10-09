@@ -236,7 +236,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)</p>
+<p>Code for tasks:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(dplyr);<span class="kw">library</span>(ggplot2)
 ipums &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;</span>)
 usa &lt;-<span class="st"> </span>ipums <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(Country<span class="op">==</span><span class="st">&#39;United States&#39;</span>)
@@ -247,8 +247,8 @@ usa &lt;-<span class="st"> </span>ipums <span class="op">%&gt;%</span><span clas
 <span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name=</span><span class="st">&#39;Highest education attained&#39;</span>) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">angle=</span><span class="dv">90</span>)) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">name=</span><span class="st">&#39;Count (in millions)&#39;</span>, <span class="dt">labels =</span> <span class="cf">function</span>(x) <span class="kw">paste</span>(x <span class="op">/</span><span class="st"> </span><span class="dv">1000000</span>,<span class="st">&#39;M&#39;</span>)) </code></pre></div>
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<p>One possible problem with this visualization is that it visualizes counts instead of percents. Using <code>dplyr</code>, re-create the visualization below that shows the percents instead of counts:</p>
+<p><img src="IPUMS-visualization-KEY_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>With percents instead of counts:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">sex.totals &lt;-<span class="st"> </span>usa<span class="op">%&gt;%</span><span class="kw">group_by</span>(Year,Sex)<span class="op">%&gt;%</span><span class="kw">summarize</span>(<span class="dt">Total =</span> <span class="kw">sum</span>(Count))
 <span class="co">#head(sex.totals)</span>
 usa2 &lt;-<span class="st"> </span><span class="kw">inner_join</span>(usa,sex.totals,<span class="dt">by=</span><span class="kw">c</span>(<span class="st">&#39;Year&#39;</span>,<span class="st">&#39;Sex&#39;</span>))<span class="op">%&gt;%</span><span class="kw">mutate</span>(<span class="dt">pct =</span> <span class="dv">100</span><span class="op">*</span>Count<span class="op">/</span>Total)
@@ -258,7 +258,7 @@ usa2 &lt;-<span class="st"> </span><span class="kw">inner_join</span>(usa,sex.to
 <span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name=</span><span class="st">&#39;Highest education attained&#39;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">ylab</span>(<span class="st">&#39;Percent of population&#39;</span>) <span class="op">+</span><span class="st"> </span>
 <span class="st">    </span><span class="kw">theme</span>(<span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">angle=</span><span class="dv">90</span>))</code></pre></div>
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="IPUMS-visualization-KEY_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 
 
 

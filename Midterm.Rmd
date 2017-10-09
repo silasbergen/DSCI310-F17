@@ -35,6 +35,10 @@ The main additional requirement is to use Census data *to some extent* in your p
 
 Additionally, each team will present their PowerPoint slides beginning on ***October 27*** (so really, the deadline to have your PowerPoint done is 10/27, not 3/3).   
 
+### Rubrics for DSCI 310 midterm
+
+* [Rubric for the visualizations](https://www.dropbox.com/s/7h03rx03aqfuibz/GroupProjectRubric-Fall2017.docx?dl=0)
+
 ### Group assignments
 
 Professionally, you will not get to always choose your own groups.  For the midterm project you will be assigned into groups, which are listed below.  Divide the work, and conquer!

@@ -7,12 +7,12 @@ author: Fall 2017
 ### [Office hours](Schedule.html)
 ### Announcements
 
-* MinneMUDAC takes place 11/3.  Stay tuned for more details!  Check out the [event website](http://minneanalytics.org/minnemudac/) for more details.
+* Exam on Friday, 10/13.
 
 
 ### [Midterm project](Midterm.html)
 
-Presentations to begin 10/30. 
+Presentations to begin 10/37. 
 
 ### Notes
 
@@ -47,12 +47,14 @@ Presentations to begin 10/30.
         3. Look at legends/labels/annotations.  What is effective?  What shows room for improvement?
     - [Example 1](https://www.dropbox.com/s/khmg1mktvsdu4bb/DT2-F17-Example1.twbx?dl=0) | [Example 2](https://www.dropbox.com/s/docbpkhaf1q20hs/DT2-F17-Example2.twbx?dl=0) |  [Example 3](https://www.dropbox.com/s/0497cxeaplw99j9/DT2-F17-Example3.twbx?dl=0) |  [Example 4](https://www.dropbox.com/s/pdy441zgkmi1pvq/DT2-F17-Example4.twbx?dl=0) |  [Example 5](https://www.dropbox.com/s/jdqzls09dw7zs4y/DT2-F17-Example5.twbx?dl=0) | [Example 6](https://www.dropbox.com/s/97t30jyy1wvnaxz/DT2-F17-Example6.twbx?dl=0) |  [Example 7](https://www.dropbox.com/s/15ikjvjrra5pjqp/DT2-F17-Example7.twbx?dl=0) | [Example 8](https://www.dropbox.com/s/vtiu1g106qs13zg/DT2-F17-Example8.twbx?dl=0) | [Example 9](https://www.dropbox.com/s/gkmypt2si0nmage/DT2-F17-Example9.twbx?dl=0) | [Example 10](https://www.dropbox.com/s/i10tx0rm2t56md0/DT2-F17-Example10.twbx?dl=0) | [Example 11](https://www.dropbox.com/s/sa919ast913vdpi/DT2-F17-Example11.twbx?dl=0)
 * [Design Task 3](https://www.dropbox.com/s/nhp1fsauhgfpj72/DT3-F17.docx?dl=0) | First draft to CrowdGrader: 9/27 (midnight) | Critiques due: 10/1 (midnight) | Final draft to D2L: 10/4 (midnight)
+    - Consider the following example submissions  for Design Task 3.  Assess them according to the [midterm rubric](https://www.dropbox.com/s/7h03rx03aqfuibz/GroupProjectRubric-Fall2017.docx?dl=0)
+    - [Example 1](https://www.dropbox.com/s/jvubikaztfs0upu/DT3-F17-Example1.twbx?dl=0) | [Example 2](https://www.dropbox.com/s/lu1mgmrpiegg4ov/DT3-F17-Example2.twbx?dl=0) | [Example 3](https://www.dropbox.com/s/x7iwemlhbs2eyok/DT3-F17-Example3.twbx?dl=0) | [Example 4](https://www.dropbox.com/s/jf6lj6sqvmgwinc/DT3-F17-Example4.twbx?dl=0) | [Example 5](https://www.dropbox.com/s/i82dks79zkm0hnt/DT3-F17-Example5.twbx?dl=0) | [Example 6](https://www.dropbox.com/s/i82dks79zkm0hnt/DT3-F17-Example5.twbx?dl=0) | [Example 7](https://www.dropbox.com/s/sk694bgby8um9dj/DT3-F17-Example7.twbx?dl=0)
 
 
 ### Play days!
 
 * [Play day 1](PlayDay1.html), begins 9/13
-* [Play day 2](IPUMS-visualization-ggplot.html)
+* [Play day 2](IPUMS-visualization-ggplot.html) | [R code for plots](IPUMS-visualization-KEY.html)
 
 ### Data
 * [Burtin's bacteria data](https://www.dropbox.com/s/y3uyg808m0y0zii/Bacteria.csv?dl=0)

@@ -4,8 +4,7 @@ output: html_document
 ---
 
 
-Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing.  One possible visualization is shown below.  Can you re-create this visualization?  (Below is for the USA, but you can pick your country of interest.)
-
+Code for tasks:
 
 ```{r,warning=FALSE,message=FALSE,fig.width=7}
 library(dplyr);library(ggplot2)
@@ -21,7 +20,8 @@ ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=E
 ```
 
 
-One possible problem with this visualization is that it visualizes counts instead of percents.  Using `dplyr`, re-create the visualization below that shows the percents instead of counts:
+With percents instead of counts:
+
 ```{r}
 sex.totals <- usa%>%group_by(Year,Sex)%>%summarize(Total = sum(Count))
 #head(sex.totals)
