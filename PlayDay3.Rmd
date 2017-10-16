@@ -1,0 +1,14 @@
+---
+title: "Play Day Task"
+author: 10-16-17
+---
+
+
+Consider the following data on [World Migration](https://www.dropbox.com/s/f8t1p37kkueizom/migration.csv?dl=0) from the United Nations, Department of Economic and Social Affairs, Population Division, Trends in International Migrant Stock.
+
+Questions to be answered visually (no restrictions!):
+
+
+
+* Which countries and regions have the most people leaving?  Where do they go?
+* Which countries and regions have the most people entering?  Where do they come from?

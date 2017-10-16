@@ -33,12 +33,13 @@ The main additional requirement is to use Census data *to some extent* in your p
 * [Complete list of 2011-2015 ACS variables](https://api.census.gov/data/2015/acs5/variables.html)
 * [Nice overview of `tidycensus` by its author, Kyle Walker](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
 
-Additionally, each team will present their PowerPoint slides beginning on ***October 27*** (so really, the deadline to have your PowerPoint done is 10/27, not 3/3).   
+Additionally, each team will present their PowerPoint slides beginning on ***October 27*** (so really, the deadline to have your PowerPoint done is 10/27, not 11/3).   
 
 ### Rubrics for DSCI 310 midterm
 
 * [Rubric for the visualizations](https://www.dropbox.com/s/7h03rx03aqfuibz/GroupProjectRubric-Fall2017.docx?dl=0)
-
+* [Rubric for presentations](https://www.dropbox.com/s/vap4vrwwcayqbub/GroupPresentationRubric-Fall2017.docx?dl=0)
+* [Link to group member evaluation](https://winona.az1.qualtrics.com/jfe/form/SV_4TOSbiNE6e3gzQ1)
 
 ### Relevant resources
 

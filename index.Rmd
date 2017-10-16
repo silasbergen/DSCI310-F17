@@ -57,6 +57,7 @@ Presentations to begin 10/37.
 
 * [Play day 1](PlayDay1.html), begins 9/13
 * [Play day 2](IPUMS-visualization-ggplot.html) | [R code for plots](IPUMS-visualization-KEY.html)
+* [Play day 3](PlayDay3.html), begins 10/16
 
 ### Data
 * [Burtin's bacteria data](https://www.dropbox.com/s/y3uyg808m0y0zii/Bacteria.csv?dl=0)
