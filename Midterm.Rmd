@@ -39,6 +39,11 @@ Additionally, each team will present their PowerPoint slides beginning on ***Oct
 
 * [Rubric for the visualizations](https://www.dropbox.com/s/7h03rx03aqfuibz/GroupProjectRubric-Fall2017.docx?dl=0)
 
+
+### Relevant resources
+
+* [Understanding Census Geographic Identifiers](https://www.census.gov/geo/reference/geoidentifiers.html)
+
 ### Group assignments
 
 Professionally, you will not get to always choose your own groups.  For the midterm project you will be assigned into groups, which are listed below.  Divide the work, and conquer!
