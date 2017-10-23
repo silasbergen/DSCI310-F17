@@ -34,3 +34,21 @@ ggplot(data = usa2) +
     theme(axis.text.x = element_text(angle=90))
 
 ```
+
+Here's an interactive version:
+
+```{r,message=FALSE}
+library(plotly)
+
+  
+p <- ggplot(data = usa, aes(x = Sex, y = Count)) +
+  #geom_point(aes(shape = Sex),size=2) + 
+  geom_line(aes(group=EdAttain, color = EdAttain))+
+  facet_grid(.~Year) + 
+  theme(axis.text.x = element_text(angle = 90)) + 
+  scale_y_continuous(name='Count (in millions)', labels = function(x) paste(x / 1000000,'M')) +
+  scale_color_discrete(name='Educational attainment') 
+
+ggplotly(p,tooltip=c('x','y'),width=800,height=800)
+```
+
