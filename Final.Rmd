@@ -1,0 +1,79 @@
+---
+title: "Final project"
+author: "DSCI 310: Fall 2017"
+output: html_document
+---
+
+### Description
+
+For your final project, you are to find your own data source(s) and create a "visual story" visualizing insights from the data.  Your visual story should consist of at least 1 but no more than 3 dashboards visualizing these data.  This project is "tool agnostic": you may create your visualizations using Tableau, or R, or any other visualization software.  ***The only requirement is that whatever software you use produces a final dashboard product that is ready-to-publish on the Internet.*** 
+
+
+If using R, check out [flexdashboards](http://rmarkdown.rstudio.com/flexdashboard/index.html).  This is an easy template for creating dashboards using R Markdown.  Flexdashboards allow you to create ready-to-publish html page.
+
+Each visual story should include one (1) "introductory" dashboard.  This should include text/images explaining:
+
+ * Data source;
+ * any prerequisite data cleaning;
+ * questions to be asked of the data and answered in subsequent visualizations.
+
+This "introductory" dashboard ***is in addition to*** your 1-3 dashboards with actual data visualizations.
+
+All students will give a 10-12 minute presentation to the class showcasing their visual story.
+
+
+### Timeline
+
+1. **Monday, October 30**: Description of data source(s) (including link(s)) with at least three (3) draft questions you will ask of the data source due to D2L.
+2. **Monday, November 13**: Oral presentations of visual stories begin.  All students must have final dashboards uploaded to D2L by this date.  We will use the final exam slot on Monday, December 4 from 3:30-5:30 pm to complete presentations.
+
+
+
+
+### Grading
+
+Your final grade will consist of the following:
+
+* [Visual story rubric (75%)](https://www.dropbox.com/s/6seigmxr2f3pef6/Fall%202017%20Rubric.docx?dl=0)
+* [Oral rubric (25%)](https://www.dropbox.com/s/htstmyy49j2esu3/Oral%20Rubric.docx?dl=0)
+
+
+
+
+
+### Example data sources
+
+
+Winona Area Public Schools:
+
+* [Google folder with questions and data](https://drive.google.com/open?id=0BzinIRj-gi7tYm5JWmxUdFBVYzQ)
+
+Government:
+
+* Data.gov
+* Census.gov
+* BJS.gov (Bureau of Justice Statistics)
+* noaa.gov
+
+Education:  
+
+* https://collegescorecard.ed.gov/data/  
+* http://www.data.gov/education/   
+
+
+Sports:
+
+* http://community.amstat.org/sis/sportsdataresources for a list of data sources by sport  
+* Fangraphs.com   
+
+Misc:
+
+* [Global terrorism database](http://www.start.umd.edu/gtd/)  
+* [ACLED (Armed Conflict Location & Event Data Project)](http://www.acleddata.com/)  
+* [World Bank (economic development)](http://data.worldbank.org/)  
+* Twitter API (see the twittR R package)  
+* [Integrated public-use microdata series (health, demographic, etc.)](https://www.ipums.org/)  
+
+See This Blog: 30 places to find open data on the web for some ideas http://blog.visual.ly/data-sources/.  Some sources above are mentioned in this blog.
+
+You are, of course, free to use other data sources than those mentioned above, or to scrape data using `rvest` or some other tool.

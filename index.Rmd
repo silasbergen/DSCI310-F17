@@ -5,14 +5,17 @@ author: Fall 2017
 
 
 ### [Office hours](Schedule.html)
-### Announcements
 
-* Exam on Friday, 10/13.
 
 
 ### [Midterm project](Midterm.html)
 
-Presentations to begin 10/37. 
+Presentations to begin 10/27. 
+
+
+### [Final project](Final.html)
+
+Presentations to begin 11/13.
 
 ### Notes
 
