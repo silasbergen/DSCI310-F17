@@ -72,7 +72,11 @@ Misc:
 * [ACLED (Armed Conflict Location & Event Data Project)](http://www.acleddata.com/)  
 * [World Bank (economic development)](http://data.worldbank.org/)  
 * Twitter API (see the twittR R package)  
-* [Integrated public-use microdata series (health, demographic, etc.)](https://www.ipums.org/)  
+* [Integrated public-use microdata series (health, demographic, etc.)](https://www.ipums.org/), including:
+  - IPUMS USA (U.S. Census data)
+  - Demographic and Health Surveys
+  - National Health Interview Survey
+  - Higher education
 
 See This Blog: 30 places to find open data on the web for some ideas http://blog.visual.ly/data-sources/.  Some sources above are mentioned in this blog.
 

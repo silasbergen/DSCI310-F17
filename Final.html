@@ -258,7 +258,11 @@ $(document).ready(function () {
 </li>
 <li>Twitter API (see the twittR R package)<br />
 </li>
-<li><a href="https://www.ipums.org/">Integrated public-use microdata series (health, demographic, etc.)</a></li>
+<li><a href="https://www.ipums.org/">Integrated public-use microdata series (health, demographic, etc.)</a>, including:</li>
+<li>IPUMS USA (U.S. Census data)</li>
+<li>Demographic and Health Surveys</li>
+<li>National Health Interview Survey</li>
+<li>Higher education</li>
 </ul>
 <p>See This Blog: 30 places to find open data on the web for some ideas <a href="http://blog.visual.ly/data-sources/" class="uri">http://blog.visual.ly/data-sources/</a>. Some sources above are mentioned in this blog.</p>
 <p>You are, of course, free to use other data sources than those mentioned above, or to scrape data using <code>rvest</code> or some other tool.</p>
@@ -287,7 +291,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
