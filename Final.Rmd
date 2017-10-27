@@ -25,7 +25,7 @@ All students will give a 10-12 minute presentation to the class showcasing their
 ### Timeline
 
 1. **Monday, October 30**: Description of data source(s) (including link(s)) with at least three (3) draft questions you will ask of the data source due to D2L.
-2. **Monday, November 13**: Oral presentations of visual stories begin.  All students must have final dashboards uploaded to D2L by this date.  We will use the final exam slot on Monday, December 4 from 3:30-5:30 pm to complete presentations.
+2. **Friday, November 17**: Oral presentations of visual stories begin.  All students must have final dashboards uploaded to D2L by this date.  We will use the final exam slot on Monday, December 4 from 3:30-5:30 pm to complete presentations.
 
 
 
@@ -72,11 +72,13 @@ Misc:
 * [ACLED (Armed Conflict Location & Event Data Project)](http://www.acleddata.com/)  
 * [World Bank (economic development)](http://data.worldbank.org/)  
 * Twitter API (see the twittR R package)  
-* [Integrated public-use microdata series (health, demographic, etc.)](https://www.ipums.org/), including:
-  - IPUMS USA (U.S. Census data)
-  - Demographic and Health Surveys
-  - National Health Interview Survey
-  - Higher education
+* [Integrated public-use microdata series (IPUMS)](https://www.ipums.org/), including:
+    - IPUMS USA (U.S. Census data)
+    - Demographic and Health Surveys
+    - National Health Interview Survey
+    - Higher education
+* [Kaggle](https://www.kaggle.com/)
+* [Data world](https://data.world/)
 
 See This Blog: 30 places to find open data on the web for some ideas http://blog.visual.ly/data-sources/.  Some sources above are mentioned in this blog.
 
