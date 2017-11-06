@@ -1,0 +1,33 @@
+---
+title: "Play Day Task"
+author: 11-7-17
+---
+
+
+This play day is modified from a similar assignment by Jerzy Wieczorek of [CivilStat.com](http://civilstat.com/) specifically [this one](http://civilstat.com/datavis/36721F15/Assignments/HW2_VisualPerception.pdf).
+
+
+
+Consider [data tablulated](https://www.dropbox.com/s/6g864cc4s4rc9ni/degrees.csv?dl=0) from the 2010 Digest of Education Statistics, [tables 308 to 330.](https://nces.ed.gov/programs/digest/d10/tables_3.asp#Ch3aSub4).  The intent of this data is to answer:
+
+1.  In what fields are more women entering college?
+2.  How is each field's gender balance changing?  
+3.  Is there a difference in gender balance comparing STEM to non-STEM fields?  
+4.  How has the gender balance in STEM fields changed relative to the balance in non-STEM fields over time?  
+
+
+Here is [one take](https://public.tableau.com/views/STEMdataAvizforstudentcritique/Dashboard1?:embed=y&:display_count=yes&publish=yes). 
+
+### Step 1
+
+ Critique this visualization at your tables, making a list of your critiques.  ***Be specific***, considering:
+ 
+ * What comparisons do you want to make, and how easy is it to make those comparisons?  
+ * What are redesigns that would make those comparisons easier by better exploiting principles of visual perception?  
+ * What aesthetic attributes need changing? 
+
+Each student should submit critiques to the Play Day 4 submission folder on D2L. 
+
+### Step 2
+
+Create a visualization using [the data](https://www.dropbox.com/s/6g864cc4s4rc9ni/degrees.csv?dl=0) that improves upon the one provided, incorporating the critiques you made in Step 1.  Submit the redesign to the Play Day 4 submission folder on D2L.  
