@@ -28,8 +28,6 @@ All students will give a 10-12 minute presentation to the class showcasing their
 2. **Friday, November 17**: Oral presentations of visual stories begin.  All students must have final dashboards uploaded to D2L by this date.  We will use the final exam slot on Monday, December 4 from 3:30-5:30 pm to complete presentations.
 
 
-
-
 ### Grading
 
 Your final grade will consist of the following:
@@ -37,6 +35,38 @@ Your final grade will consist of the following:
 * [Visual story rubric (75%)](https://www.dropbox.com/s/6seigmxr2f3pef6/Fall%202017%20Rubric.docx?dl=0)
 * [Oral rubric (25%)](https://www.dropbox.com/s/htstmyy49j2esu3/Oral%20Rubric.docx?dl=0)
 
+### Presentation order
+
+Order |  Student   
+----- | ---------   
+1	| Khanal, Kapil
+2	| Quam, Mariah S
+3	| Khan, Akif A
+4	| Dye, McHale T
+5	| Xu, Yulun
+6	| Krueger, Ross L
+7	| Barta, Jack A
+8	| Ellingworth, Austin J
+9	| Nead, Catherine M
+10	| Gathje, Thomas J
+11	| Willkom, Lauren M
+12	| Ladin, Matthew F
+13	| Miertschin, Stacey L
+14	| Erickson, Bradley W
+15	| Smith, Nathan R
+16	| Clemens, Adam J
+17	| Khan, Waheed
+18	| Dokkebakken, Sam C
+19	| Stampley, David L
+20	| Oelerking, Maxwell S
+21	| Hickey, James J
+22	| Meyer, Samantha
+23	| Buske, Reagan N
+24	| Boelter, Paul G
+25	| Quraishi, Salman M
+26	| Diedrick, William J
+27	| Nguyen, Linh H
+28	| Xue, Fengrui
 
 
 
@@ -83,3 +113,6 @@ Misc:
 See This Blog: 30 places to find open data on the web for some ideas http://blog.visual.ly/data-sources/.  Some sources above are mentioned in this blog.
 
 You are, of course, free to use other data sources than those mentioned above, or to scrape data using `rvest` or some other tool.
+
+
+
