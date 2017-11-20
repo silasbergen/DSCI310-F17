@@ -39,34 +39,34 @@ Your final grade will consist of the following:
 
 Order |  Student   
 ----- | ---------   
-1	| Khanal, Kapil
-2	| Quam, Mariah S
-3	| Khan, Akif A
-4	| Dye, McHale T
-5	| Xu, Yulun
-6	| Krueger, Ross L
-7	| Barta, Jack A
-8	| Ellingworth, Austin J
-9	| Nead, Catherine M
-10	| Gathje, Thomas J
-11	| Willkom, Lauren M
-12	| Ladin, Matthew F
-13	| Miertschin, Stacey L
-14	| Erickson, Bradley W
+1	| [Khanal, Kapil](https://public.tableau.com/profile/kapil.khanal#!/vizhome/WinonaAreaPublicSchoolsDataCleaningandVisualization/SecondDashboard?publish=yes)  
+2	| [Quam, Mariah S](https://public.tableau.com/profile/mariah7628#!/vizhome/310Final/Dashboard3?publish=yes)
+3	| [Khan, Akif A](https://public.tableau.com/profile/akif5393#!/vizhome/FinalProjectDraft_1/EnrollmentandExpenditureAmongdifferentfacilities?publish=yes)
+4	| [Dye, McHale T](https://public.tableau.com/profile/mchale.dye#!/vizhome/FINALPROJECTIPUMMENTALHEALTH/Insights?publish=yes)
+5	| [Xu, Yulun](https://public.tableau.com/profile/yulun.xu#!/vizhome/final_144/Introduction?publish=yes)
+6	| [Krueger, Ross L](https://public.tableau.com/profile/ross.krueger#!/vizhome/DSCI310FinalProjectAnAnalysisofDrugDeathsintheUS/IntroSheet)
+7	| [Barta, Jack A](https://public.tableau.com/profile/jack.barta#!/)
+8	| [Ellingworth, Austin J](https://public.tableau.com/profile/austin.ellingworth1102#!/vizhome/FINALPROJECTGOOD/Intro?publish=yes)
+9	| [Nead, Catherine M](https://public.tableau.com/profile/catherine.nead#!/vizhome/RioOlympicGames2016/Introduction)
+10	| [Gathje, Thomas J](https://public.tableau.com/profile/tom.gathje#!/)
+11	| [Willkom, Lauren M](https://public.tableau.com/views/DataScienceFinal/Intro?:embed=y&:display_count=yes&publish=yes)
+12	| [Ladin, Matthew F](https://public.tableau.com/profile/matthew2057#!/vizhome/DSci310FinalProject/IntroDash?publish=yes)
+13	| [Miertschin, Stacey L](https://public.tableau.com/profile/stacey.miertschin#!/vizhome/Africa_Final/Intro)
+14	| [Erickson, Bradley W](https://public.tableau.com/profile/bradley.erickson#!/)
 15	| Smith, Nathan R
-16	| Clemens, Adam J
-17	| Khan, Waheed
+16	| [Clemens, Adam J](https://public.tableau.com/profile/adam.clemens#!/)
+17	| [Khan, Waheed](https://public.tableau.com/profile/waheed.khan#!/vizhome/ForPublic/VisualizationofAccidentsinMinnesota?publish=yes)
 18	| Dokkebakken, Sam C
-19	| Stampley, David L
-20	| Oelerking, Maxwell S
-21	| Hickey, James J
+19	| [Stampley, David L](https://public.tableau.com/views/DSCI310-FinalProject/Introductiontodata?:embed=y&:display_count=yes&publish=yes)
+20	| [Oelerking, Maxwell S](https://public.tableau.com/profile/max.oelerking#!/vizhome/BaseballDataStory_0/Intro)
+21	| [Hickey, James J](https://public.tableau.com/profile/jimmy.hickey#!/vizhome/UsingDatatoBetterUnderstandMentalHealth/Title)
 22	| Meyer, Samantha
-23	| Buske, Reagan N
-24	| Boelter, Paul G
-25	| Quraishi, Salman M
-26	| Diedrick, William J
+23	| [Buske, Reagan N](https://public.tableau.com/profile/reagan.buske#!/)
+24	| [Boelter, Paul G](https://public.tableau.com/profile/paul.boelter#!/vizhome/NBA14-17Statisitcs/IntroductionDashboard)
+25	| [Quraishi, Salman M](https://public.tableau.com/profile/salman.quraishi#!/vizhome/DSCI310FinalProject/IntroductoryDashboard)
+26	| [Diedrick, William J](https://public.tableau.com/profile/william.diedrick#!/)
 27	| Nguyen, Linh H
-28	| Xue, Fengrui
+28	| [Xue, Fengrui](https://public.tableau.com/profile/fengrui.xue#!/vizhome/310my/GDPCN?publish=yes)
 
 
 
