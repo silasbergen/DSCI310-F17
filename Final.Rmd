@@ -56,17 +56,17 @@ Order |  Student
 15	| Smith, Nathan R
 16	| [Clemens, Adam J](https://public.tableau.com/profile/adam.clemens#!/)
 17	| [Khan, Waheed](https://public.tableau.com/profile/waheed.khan#!/vizhome/ForPublic/VisualizationofAccidentsinMinnesota?publish=yes)
-18	| Dokkebakken, Sam C
+18	| [Dokkebakken, Sam C](https://public.tableau.com/profile/sam.dokkebakken#!/vizhome/GoldenStateWarriors/Dashboard4)
 19	| [Stampley, David L](https://public.tableau.com/views/DSCI310-FinalProject/Introductiontodata?:embed=y&:display_count=yes&publish=yes)
 20	| [Oelerking, Maxwell S](https://public.tableau.com/profile/max.oelerking#!/vizhome/BaseballDataStory_0/Intro)
 21	| [Hickey, James J](https://public.tableau.com/profile/jimmy.hickey#!/vizhome/UsingDatatoBetterUnderstandMentalHealth/Title)
-22	| Meyer, Samantha
+22	| [Meyer, Samantha](https://public.tableau.com/profile/samantha.meyer#!/)
 23	| [Buske, Reagan N](https://public.tableau.com/profile/reagan.buske#!/)
 24	| [Boelter, Paul G](https://public.tableau.com/profile/paul.boelter#!/vizhome/NBA14-17Statisitcs/IntroductionDashboard)
 25	| [Quraishi, Salman M](https://public.tableau.com/profile/salman.quraishi#!/vizhome/DSCI310FinalProject/IntroductoryDashboard)
 26	| [Diedrick, William J](https://public.tableau.com/profile/william.diedrick#!/)
 27	| Nguyen, Linh H
-28	| [Xue, Fengrui](https://public.tableau.com/profile/fengrui.xue#!/vizhome/310my/GDPCN?publish=yes)
+28	| [Xue, Fengrui](https://public.tableau.com/profile/fengrui.xue#!/vizhome/310my/Introduction)
 
 
 
